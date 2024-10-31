@@ -1,211 +1,15 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": ["depression"],
   "protocols": [
     {
-      "name": "Health_V2",
+      "name": "HEALTHKIT",
       "showIntroduction": true,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health_v2",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "hour",
-          "amount": 12
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [11]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "Health_V3",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health_v3",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "hour",
-          "amount": 12
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [11]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "Health_V4_Matrix_Group",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health_v4",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "hour",
-          "amount": 12
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [9]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "Health_V5_Matrix_Group",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health_v5",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 3,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "hour",
-          "amount": 12
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [9]
-        },
-        "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
-        }
-      }
-    },
-    {
-      "name": "Health_V6_Matrix_Group",
-      "showIntroduction": true,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/hardco2020/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "health_v6",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "sample_healthkit",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -240,7 +44,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [9]
+          "unitsFromZero": [
+            9
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -250,17 +56,17 @@
       }
     },
     {
-      "name": "TANDEM WALKING",
+      "name": "PHQ8",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "tandem_walking_test",
-        "avsc": "task"
+        "name": "phq8",
+        "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
         "it": "",
         "nl": "",
         "da": "",
@@ -268,7 +74,7 @@
         "es": ""
       },
       "endText": {
-        "en": "",
+        "en": "Thank you for taking the time today.",
         "it": "",
         "nl": "",
         "da": "",
@@ -283,7 +89,7 @@
         "de": "",
         "es": ""
       },
-      "estimatedCompletionTime": 1,
+      "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
@@ -291,29 +97,18 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1120]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "day",
           "amount": 0,
           "repeat": 0
         },
-        "clinicalProtocol": {
-          "requiresInClinicCompletion": true,
-          "repeatAfterClinicVisit": {
-            "unit": "min",
-            "unitsFromZero": [1]
-          }
-        },
-        "notification": {
-          "title": {
-            "en": "Task time",
-            "it": "E' il momento per un compito",
-            "es": "Momento para la tarea",
-            "nl": "Tijd voor een taak",
-            "da": "Tid til at udføre opgaver",
-            "de": "Zeit für Aufgaben"
-          }
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
         }
       }
     }
