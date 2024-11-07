@@ -1,15 +1,15 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": ["depression"],
   "protocols": [
     {
-      "name": "HEALTHKIT",
+      "name": "HEALTHKIT STEP COUNT",
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "sample_healthkit",
+        "name": "sample_healthkit_steps",
         "avsc": "questionnaire"
       },
       "startText": {
