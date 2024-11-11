@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7",
+  "version": "0.0.8",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": ["depression"],
@@ -38,8 +38,12 @@
       },
       "estimatedCompletionTime": 3,
       "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2016-07-01",
+          "format": "date"
+        },
         "repeatProtocol": {
-          "unit": "day",
+          "unit": "year",
           "amount": 1
         },
         "repeatQuestionnaire": {
