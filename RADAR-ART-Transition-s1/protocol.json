@@ -120,7 +120,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 3
         },
         "notification": {
           "title": {
@@ -184,7 +184,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 2
         },
         "notification": {
           "title": {
@@ -248,7 +248,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 4
+          "amount": 3
         },
         "notification": {
           "title": {
@@ -312,7 +312,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 4
+          "amount": 3
         },
         "notification": {
           "title": {
@@ -376,7 +376,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 4
+          "amount": 3
         },
         "notification": {
           "title": {
@@ -440,7 +440,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 4
+          "amount": 3
         },
         "notification": {
           "title": {
@@ -504,7 +504,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 4
+          "amount": 3
         },
         "notification": {
           "title": {
@@ -568,7 +568,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 4
+          "amount": 3
         },
         "notification": {
           "title": {
@@ -632,7 +632,71 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 4
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
+        }
+      }
+    },
+    {
+      "name": "RSES",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": false,
+      "order": 4,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "rses",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 182
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [1020]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
         },
         "notification": {
           "title": {
