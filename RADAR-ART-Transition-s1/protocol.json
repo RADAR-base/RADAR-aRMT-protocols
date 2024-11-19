@@ -2,7 +2,9 @@
   "version": "0.0.2",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
-  "healthIssues": ["ADHD"],
+  "healthIssues": [
+    "ADHD"
+  ],
   "protocols": [
     {
       "name": "ADHD Medication Use Daily",
@@ -47,12 +49,14 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
-          "amount": 1,
-          "repeat": 3
+          "amount": 3,
+          "repeat": 1
         },
         "completionWindow": {
           "unit": "day",
@@ -111,7 +115,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -175,7 +181,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -239,7 +247,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -303,7 +313,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -367,7 +379,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -431,7 +445,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -495,7 +511,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -559,7 +577,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -623,7 +643,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -687,7 +709,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -697,6 +721,204 @@
         "completionWindow": {
           "unit": "day",
           "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
+        }
+      }
+    },
+    {
+      "name": "EDEQS",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": false,
+      "order": 4,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "edeqs",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 182
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1020
+          ]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 3
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
+        }
+      }
+    },
+    {
+      "name": "About You",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": false,
+      "order": 4,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "about_you_remote",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 28
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1020
+          ]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 4
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
+        }
+      }
+    },
+    {
+      "name": "ADHD Symptoms Daily",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "isDemo": false,
+      "order": 4,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "adhd_symptoms_daily",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            1020
+          ]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 3,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
         },
         "notification": {
           "title": {
