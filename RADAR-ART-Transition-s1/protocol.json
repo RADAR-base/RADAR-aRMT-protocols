@@ -2,9 +2,7 @@
   "version": "0.0.2",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
-  "healthIssues": [
-    "ADHD"
-  ],
+  "healthIssues": ["ADHD"],
   "protocols": [
     {
       "name": "ADHD Medication Use Daily",
@@ -49,9 +47,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -115,9 +111,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -181,9 +175,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -247,9 +239,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -313,9 +303,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -379,9 +367,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -445,9 +431,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -511,9 +495,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -577,9 +559,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -643,9 +623,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -709,9 +687,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -775,9 +751,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -841,9 +815,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -907,9 +879,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            1020
-          ]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
