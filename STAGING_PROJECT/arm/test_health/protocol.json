@@ -1,19 +1,19 @@
 {
-  "version": "0.0.9",
+  "version": "0.0.10",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": ["depression"],
   "protocols": [
     {
       "name": "HEALTHKIT",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "sample_healthkit",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "",
+        "en": "This questionnaire will collect your Healthkit data. Please ensure that you enable the HealthKit permissions when prompted. This will allow the RADAR app to collect your data.",
         "it": "",
         "nl": "",
         "da": "",
@@ -48,9 +48,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "hour",
-          "unitsFromZero": [
-            9
-          ]
+          "unitsFromZero": [9]
         },
         "reminders": {
           "unit": "day",
