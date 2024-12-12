@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
   "healthIssues": ["ADHD"],
@@ -517,14 +517,14 @@
       }
     },
     {
-      "name": "AUDIO_4",
+      "name": "AUDIO_TRANSITION",
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio_4",
+        "name": "audio_transition",
         "avsc": "questionnaire"
       },
       "startText": {
