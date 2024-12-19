@@ -7,7 +7,7 @@
     {
       "name": "ADHD Medication Use Daily",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -71,7 +71,7 @@
     {
       "name": "BAARS-IV",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -135,7 +135,7 @@
     {
       "name": "GAD7",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -199,7 +199,7 @@
     {
       "name": "PHQ8",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -263,7 +263,7 @@
     {
       "name": "ARI-self",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -327,7 +327,7 @@
     {
       "name": "FND",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -391,7 +391,7 @@
     {
       "name": "AUDIT",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -455,7 +455,7 @@
     {
       "name": "AUDIO_TRANSITION",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -519,7 +519,7 @@
     {
       "name": "COGNITIVE",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -583,7 +583,7 @@
     {
       "name": "RSES",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -647,7 +647,7 @@
     {
       "name": "EDEQS",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -711,7 +711,7 @@
     {
       "name": "About You",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -775,7 +775,7 @@
     {
       "name": "ADHD Symptoms Daily",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
