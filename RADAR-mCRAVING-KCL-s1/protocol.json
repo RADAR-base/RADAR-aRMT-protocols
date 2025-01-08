@@ -176,6 +176,11 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [540]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
           }
         }
       },
@@ -223,6 +228,11 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [10620]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
           }
         }
       }
