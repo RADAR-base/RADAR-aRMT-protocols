@@ -1,0 +1,241 @@
+{
+    "version": "0.0.1",
+    "schemaVersion": "0.0.1",
+    "name": "RADAR mCRAVING KCL s1",
+    "healthIssues": ["Cocaine Craving"],
+    "protocols": [
+      {
+        "name": "FIXED EMA",
+        "showIntroduction": true,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "fixed_ema",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for taking the time today.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "hour",
+            "unitsFromZero": [20]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
+          },
+          "completionWindow": {
+            "unit": "hour",
+            "amount": 2
+          },
+          "notification": {
+            "title": {
+              "en": "Questionnaire time"
+            },
+            "text": {
+              "en": "Please finish them within 2 hours."
+            }
+          }
+        }
+      },
+      {
+        "name": "RANDOM EMA",
+        "showIntroduction": true,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 3,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "random_ema",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "This questionnaire is known as the GAD7. Clinicians use it to assess anxiety.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [550, 810, 1115]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
+          },
+          "completionWindow": {
+            "unit": "hour",
+            "amount": 1
+          },
+          "notification": {
+            "title": {
+              "en": "Questionnaire time"
+            },
+            "text": {
+              "en": "Please finish them within 1 hour."
+            }
+          }
+        }
+      },
+      {
+        "name": "EMA CRAVING",
+        "type": "on_demand",
+        "showIntroduction": true,
+        "isDemo": false,
+        "order": 8,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "user_initiated_craving_ema",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "This questionnaire is known as the ED15. Clinicians use it to assess eating attitudes and behaviours over the last week.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 14
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [540]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
+          }
+        }
+      },
+      {
+        "name": "EMA COCAINE USE",
+        "type": "on_demand",
+        "showIntroduction": true,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "user_initiated_cocaine_use_ema",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for taking the time today.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "Find a quiet space.",
+          "it": "Trova uno spazio tranquillo.",
+          "nl": "Zoek een stille ruimte.",
+          "da": "Find et roligt sted.",
+          "de": "Suchen Sie sich einen ruhigen Platz.",
+          "es": "Encuentra un espacio tranquilo."
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "week",
+            "amount": 4
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [10620]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
+          }
+        }
+      }
+    ]
+  }
+  
