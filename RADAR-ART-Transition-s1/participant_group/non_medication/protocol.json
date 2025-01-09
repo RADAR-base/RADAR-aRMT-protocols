@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
   "healthIssues": ["ADHD"],
@@ -817,14 +817,6 @@
         "completionWindow": {
           "unit": "day",
           "amount": 1
-        },
-        "notification": {
-          "title": {
-            "en": "Questionnaire time"
-          },
-          "text": {
-            "en": "Please finish them within 3 days."
-          }
         }
       }
     }
