@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "schemaVersion": "0.0.1",
     "name": "RADAR mCRAVING KCL s1",
     "healthIssues": ["Cocaine Craving"],
@@ -71,7 +71,7 @@
       {
         "name": "RANDOM EMA",
         "showIntroduction": true,
-        "showInCalendar": true,
+        "showInCalendar": false,
         "isDemo": false,
         "order": 3,
         "questionnaire": {
