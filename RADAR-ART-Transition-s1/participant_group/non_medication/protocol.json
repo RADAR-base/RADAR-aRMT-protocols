@@ -1,5 +1,5 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
   "healthIssues": ["ADHD"],
@@ -103,7 +103,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
@@ -167,7 +167,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
@@ -231,7 +231,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
@@ -295,7 +295,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
@@ -359,7 +359,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
@@ -423,7 +423,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
@@ -487,7 +487,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
@@ -743,7 +743,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [40320]
+          "unitsFromZero": [40800]
         },
         "reminders": {
           "unit": "hour",
