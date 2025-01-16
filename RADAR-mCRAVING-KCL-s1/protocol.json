@@ -1,11 +1,11 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "schemaVersion": "0.0.1",
     "name": "RADAR mCRAVING KCL s1",
     "healthIssues": ["Cocaine Craving"],
     "protocols": [
       {
-        "name": "FIXED EMA",
+        "name": "8PM Survey",
         "showIntroduction": true,
         "showInCalendar": true,
         "isDemo": false,
@@ -16,7 +16,7 @@
           "avsc": "questionnaire"
         },
         "startText": {
-          "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients.",
+          "en": "",
           "it": "",
           "nl": "",
           "da": "",
@@ -69,7 +69,7 @@
         }
       },
       {
-        "name": "RANDOM EMA",
+        "name": "Random Survey",
         "showIntroduction": true,
         "showInCalendar": false,
         "isDemo": false,
@@ -80,7 +80,7 @@
           "avsc": "questionnaire"
         },
         "startText": {
-          "en": "This questionnaire is known as the GAD7. Clinicians use it to assess anxiety.",
+          "en": "",
           "it": "",
           "nl": "",
           "da": "",
@@ -120,7 +120,7 @@
           },
           "completionWindow": {
             "unit": "hour",
-            "amount": 1
+            "amount": 12
           },
           "notification": {
             "title": {
@@ -133,7 +133,7 @@
         }
       },
       {
-        "name": "EMA CRAVING",
+        "name": "Report Cocaine Craving",
         "type": "on_demand",
         "showIntroduction": true,
         "isDemo": false,
@@ -144,7 +144,7 @@
           "avsc": "questionnaire"
         },
         "startText": {
-          "en": "This questionnaire is known as the ED15. Clinicians use it to assess eating attitudes and behaviours over the last week.",
+          "en": "",
           "it": "",
           "nl": "",
           "da": "",
@@ -185,7 +185,7 @@
         }
       },
       {
-        "name": "EMA COCAINE USE",
+        "name": "Report Cocaine Use",
         "type": "on_demand",
         "showIntroduction": true,
         "isDemo": false,
