@@ -1,5 +1,5 @@
 {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "schemaVersion": "0.0.1",
     "name": "RADAR mCRAVING KCL s1",
     "healthIssues": ["Cocaine Craving"],
@@ -107,11 +107,20 @@
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 1
+            "amount": 7
           },
           "repeatQuestionnaire": {
             "unit": "min",
-            "unitsFromZero": [550, 810, 1115]
+            "unitsFromZero": 
+            [
+              480, 726, 1005,  
+              1920, 2168, 2445, 
+              3360, 3677, 3738,
+              4800, 5043, 5359,
+              6240, 6495, 6675,
+              7680, 7893, 8150,
+              9120, 9384, 9703
+            ]
           },
           "reminders": {
             "unit": "hour",
