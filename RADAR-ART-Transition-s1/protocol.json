@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7",
+  "version": "0.0.8",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
   "healthIssues": ["ADHD"],
@@ -171,12 +171,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -235,12 +235,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -299,12 +299,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -363,12 +363,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -427,12 +427,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -491,12 +491,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -555,12 +555,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -619,12 +619,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -683,12 +683,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -747,12 +747,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -811,12 +811,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {

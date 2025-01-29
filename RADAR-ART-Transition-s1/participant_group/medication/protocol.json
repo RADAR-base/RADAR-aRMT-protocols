@@ -1,5 +1,5 @@
 {
-  "version": "0.0.8",
+  "version": "0.0.9",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
   "healthIssues": ["ADHD"],
@@ -119,8 +119,8 @@
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -179,12 +179,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -243,12 +243,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -307,12 +307,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         }
       }
     },
@@ -363,12 +363,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -427,12 +427,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -491,12 +491,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -555,12 +555,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -619,12 +619,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -683,12 +683,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -747,12 +747,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
@@ -811,12 +811,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 41,
+          "amount": 36,
           "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         },
         "notification": {
           "title": {
