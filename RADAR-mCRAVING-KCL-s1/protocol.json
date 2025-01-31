@@ -1,5 +1,5 @@
 {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "schemaVersion": "0.0.1",
     "name": "RADAR mCRAVING KCL s1",
     "healthIssues": ["Cocaine Craving"],
@@ -161,7 +161,7 @@
           "es": ""
         },
         "endText": {
-          "en": "",
+          "en": "Remember to tag this event on the Empatica devices (if you haven't already).",
           "it": "",
           "nl": "",
           "da": "",
