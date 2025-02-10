@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "schemaVersion": "0.0.2",
   "name": "PAPrKA Project",
   "healthIssues": ["depression"],
@@ -44,7 +44,7 @@
         },
         "repeatProtocol": {
           "unit": "year",
-          "amount": 3
+          "amount": 9999
         },
         "repeatQuestionnaire": {
           "unit": "hour",
