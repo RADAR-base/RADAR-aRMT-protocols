@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "schemaVersion": "0.0.2",
   "name": "PAPrKA Project",
   "healthIssues": ["depression"],
@@ -9,7 +9,7 @@
       "showIntroduction": "once",
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "sample_healthkit",
+        "name": "paprka_healthkit",
         "avsc": "questionnaire"
       },
       "startText": {
