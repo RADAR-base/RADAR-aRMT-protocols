@@ -1,12 +1,12 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "schemaVersion": "0.0.2",
   "name": "PAPrKA Project",
   "healthIssues": ["depression"],
   "protocols": [
     {
       "name": "HEALTHKIT",
-      "showIntroduction": "once",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "paprka_healthkit",
