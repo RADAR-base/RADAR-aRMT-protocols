@@ -6,7 +6,7 @@
   "protocols": [
     {
       "name": "HEALTHKIT",
-      "showIntroduction": "false",
+      "showIntroduction": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "paprka_healthkit",
