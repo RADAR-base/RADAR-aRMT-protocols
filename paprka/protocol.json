@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.2",
   "name": "PAPrKA Project",
   "healthIssues": ["depression"],
@@ -21,7 +21,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you. You have successfully uploaded your Apple device to the PAPrKA research study. Please return to our website and complete any remaining tasks. You will not be able to participate in the PAPrKA research study until all tasks are complete.",
+        "en": "Thank you. You have successfully uploaded your Apple Health data to the PAPrKA research study. Please return to our website and complete any remaining tasks.",
         "it": "",
         "nl": "",
         "da": "",
