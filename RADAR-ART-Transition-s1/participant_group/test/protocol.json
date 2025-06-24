@@ -1,5 +1,5 @@
 {
-  "version": "0.0.10",
+  "version": "0.0.11",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1 Test",
   "healthIssues": ["ADHD"],
@@ -769,6 +769,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
+      "type": "on_demand",
       "order": 9,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
