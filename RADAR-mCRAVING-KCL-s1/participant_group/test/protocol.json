@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "schemaVersion": "0.0.1",
     "name": "RADAR mCRAVING KCL s1",
     "healthIssues": ["Cocaine Craving"],
@@ -193,6 +193,214 @@
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "user_initiated_cocaine_use_ema",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for taking the time today.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "Find a quiet space.",
+          "it": "Trova uno spazio tranquillo.",
+          "nl": "Zoek een stille ruimte.",
+          "da": "Find et roligt sted.",
+          "de": "Suchen Sie sich einen ruhigen Platz.",
+          "es": "Encuentra un espacio tranquilo."
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "week",
+            "amount": 4
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [10620]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
+          }
+        }
+      },
+      {
+        "name": "Report Alcohol Craving",
+        "type": "on_demand",
+        "showIntroduction": true,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "user_initiated_alcohol_craving_ema",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Remember to tag this event on the Empatica devices (if you haven't already).",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "Find a quiet space.",
+          "it": "Trova uno spazio tranquillo.",
+          "nl": "Zoek een stille ruimte.",
+          "da": "Find et roligt sted.",
+          "de": "Suchen Sie sich einen ruhigen Platz.",
+          "es": "Encuentra un espacio tranquilo."
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "week",
+            "amount": 4
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [10620]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
+          }
+        }
+      },
+      {
+        "name": "Report Alcohol Use",
+        "type": "on_demand",
+        "showIntroduction": true,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "user_initiated_alcohol_use_ema",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for taking the time today.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "Find a quiet space.",
+          "it": "Trova uno spazio tranquillo.",
+          "nl": "Zoek een stille ruimte.",
+          "da": "Find et roligt sted.",
+          "de": "Suchen Sie sich einen ruhigen Platz.",
+          "es": "Encuentra un espacio tranquilo."
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "week",
+            "amount": 4
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [10620]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
+          }
+        }
+      },
+      {
+        "name": "Report Heroin Craving",
+        "type": "on_demand",
+        "showIntroduction": true,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "user_initiated_heroin_craving_ema",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Remember to tag this event on the Empatica devices (if you haven't already).",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "Find a quiet space.",
+          "it": "Trova uno spazio tranquillo.",
+          "nl": "Zoek een stille ruimte.",
+          "da": "Find et roligt sted.",
+          "de": "Suchen Sie sich einen ruhigen Platz.",
+          "es": "Encuentra un espacio tranquilo."
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "week",
+            "amount": 4
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [10620]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 9,
+            "repeat": 0
+          }
+        }
+      },
+      {
+        "name": "Report Heroin Use",
+        "type": "on_demand",
+        "showIntroduction": true,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "user_initiated_heroin_use_ema",
           "avsc": "questionnaire"
         },
         "startText": {
