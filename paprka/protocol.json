@@ -1,5 +1,5 @@
 {
-  "version": "0.0.6",
+  "version": "0.0.7",
   "schemaVersion": "0.0.2",
   "name": "PAPrKA Project",
   "healthIssues": ["depression"],
@@ -21,7 +21,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you. You have successfully uploaded your Apple Health data to the PAPrKA research study. Please return to our website and complete any remaining tasks.",
+        "en": "Thank you for completing the task. Please check that all your data has been successfully sent. When you're ready, tap the 'Done' button to go back to the home page. From there, you can resend any data that didn't go through or return to the study portal to complete any remaining tasks.",
         "it": "",
         "nl": "",
         "da": "",
