@@ -390,7 +390,7 @@
       },
       {
         "name": "ESM INFO",
-        "showIntroduction": "false",
+        "showIntroduction": false,
         "showInCalendar": false,
         "isDemo": false,
         "order": 4,
