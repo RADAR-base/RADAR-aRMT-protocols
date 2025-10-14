@@ -8,7 +8,7 @@
   ],
   "protocols": [
     {
-      "name": "EORTC QLQ-C30 Weekly",
+      "name": "EORTC QLQ C30 Weekly",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -74,7 +74,7 @@
       }
     },
     {
-      "name": "EORTC QLQ-BN20 - 6-weekly",
+      "name": "EORTC QLQ BN20",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -140,7 +140,7 @@
       }
     },
     {
-      "name": "EQ-5D-5L - 6-weekly",
+      "name": "EQ_5D_5L",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -206,7 +206,7 @@
       }
     },
     {
-      "name": "EORTC QLQ-BN20 - 6-weekly",
+      "name": "EORTC QLQ BN20",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -272,7 +272,7 @@
       }
     },
     {
-      "name": "QLQ C30 - 6-weekly",
+      "name": "QLQ C30",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
