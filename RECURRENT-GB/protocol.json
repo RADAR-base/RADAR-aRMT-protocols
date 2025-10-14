@@ -1,0 +1,341 @@
+{
+  "version": "0.0.1",
+  "schemaVersion": "0.0.1",
+  "name": "RECURRENT-GB ",
+  "healthIssues": [
+    "glioblastoma",
+    "neuro-oncology"
+  ],
+  "protocols": [
+    {
+      "name": "EORTC QLQ C30 Weekly",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 0,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "qlq_c30_2",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Please answer the two global health items (overall health and overall quality of life).",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you — this took only a moment.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 7
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            480
+          ]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 48
+        },
+        "notification": {
+          "title": {
+            "en": "Weekly global health check-in"
+          },
+          "text": {
+            "en": "Please complete the two global health questions (EORTC QLQ-C30 Q29–30)."
+          }
+        }
+      }
+    },
+    {
+      "name": "EORTC QLQ BN20",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "qlq_bn20",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Please complete the brain-tumour specific module (motor, communication and other items).",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you — your responses help track tumour-specific symptoms and function.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 42
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            480
+          ]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 7
+        },
+        "notification": {
+          "title": {
+            "en": "6-week symptom module due"
+          },
+          "text": {
+            "en": "Please complete the EORTC QLQ-BN20 to report brain tumour related symptoms and function."
+          }
+        }
+      }
+    },
+    {
+      "name": "EQ_5D_5L",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 2,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "eq5d5l",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Please complete the EQ-5D-5L and the ECOG performance status questions for health economics and function assessment.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you — this provides important data for quality-adjusted life-year (QALY) and function analyses.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 42
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            480
+          ]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 7
+        },
+        "notification": {
+          "title": {
+            "en": "6-week EQ-5D & ECOG due"
+          },
+          "text": {
+            "en": "Please complete the EQ-5D-5L and ECOG performance status questions."
+          }
+        }
+      }
+    },
+    {
+      "name": "EORTC QLQ BN20",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "qlq_bn20",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Please complete the brain-tumour specific module (motor, communication and other items).",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you — your responses help track tumour-specific symptoms and function.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 5,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 42
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            480
+          ]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 7
+        },
+        "notification": {
+          "title": {
+            "en": "6-week symptom module due"
+          },
+          "text": {
+            "en": "Please complete the EORTC QLQ-BN20 to report brain tumour related symptoms and function."
+          }
+        }
+      }
+    },
+    {
+      "name": "QLQ C30",
+      "showIntroduction": true,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 2,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "qlq_c30",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "Please complete the QLQ C30 assessment.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 42
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            480
+          ]
+        },
+        "reminders": {
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 2
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 7
+        },
+        "notification": {
+          "title": {
+            "en": "QLQ C30 Due"
+          },
+          "text": {
+            "en": "Please complete the QLQ C30questions."
+          }
+        }
+      }
+    }
+  ]
+}
