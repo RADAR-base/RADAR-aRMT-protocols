@@ -1,5 +1,5 @@
 {
-    "version": "0.0.12",
+    "version": "0.0.13",
     "schemaVersion": "0.0.1",
     "name": "RADAR EDIFY KCL s1",
     "healthIssues": ["Eating Disorder"],
@@ -51,8 +51,8 @@
           },
           "reminders": {
             "unit": "hour",
-            "amount": 9,
-            "repeat": 1
+            "amount": 24,
+            "repeat": 2
           },
           "completionWindow": {
             "unit": "day",
@@ -115,8 +115,8 @@
           },
           "reminders": {
             "unit": "hour",
-            "amount": 9,
-            "repeat": 1
+            "amount": 24,
+            "repeat": 2
           },
           "completionWindow": {
             "unit": "day",
@@ -179,8 +179,8 @@
           },
           "reminders": {
             "unit": "hour",
-            "amount": 9,
-            "repeat": 1
+            "amount": 24,
+            "repeat": 2
           },
           "completionWindow": {
             "unit": "day",
@@ -244,7 +244,7 @@
           "reminders": {
             "unit": "hour",
             "amount": 24,
-            "repeat": 1
+            "repeat": 2
           },
           "completionWindow": {
             "unit": "day",
@@ -393,7 +393,7 @@
         "showIntroduction": "once",
         "showInCalendar": false,
         "isDemo": false,
-        "order": 4,
+        "order": 0,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "esm_story",
@@ -593,7 +593,63 @@
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 28
+            "amount": 7
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [510]
+          },
+          "reminders": {
+            "unit": "hour",
+            "amount": 24,
+            "repeat": 2
+          },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 3
+          }
+        }
+      },
+      {
+        "name": "Oura Reminder",
+        "showIntroduction": false,
+        "showInCalendar": true,
+        "isDemo": false,
+        "order": 4,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "oura_story_reminder",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for taking the time today.",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 2,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 7
           },
           "repeatQuestionnaire": {
             "unit": "min",
@@ -601,8 +657,8 @@
           },
           "reminders": {
             "unit": "day",
-            "amount": 7,
-            "repeat": 3
+            "amount": 0,
+            "repeat": 0
           },
           "completionWindow": {
             "unit": "day",
