@@ -1,217 +1,216 @@
 {
-    "version": "0.5.9",
-    "schemaVersion": "0.0.2",
-    "name": "RADAR STAGING Project",
-    "healthIssues": [
-      "depression"
-    ],
-    "protocols": [
-      {
-        "name": "PHQ8",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 1,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "phq8",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "Thank you for taking the time today.",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "estimatedCompletionTime": 2,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 1
-          },
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              540
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 0,
-            "repeat": 0
-          },
-          "completionWindow": {
-            "unit": "day",
-            "amount": 1
-          }
-        }
+  "version": "0.5.10",
+  "schemaVersion": "0.0.2",
+  "name": "RADAR STAGING Project",
+  "healthIssues": [
+    "depression"
+  ],
+  "protocols": [
+    {
+      "name": "PHQ8",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "order": 1,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "phq8",
+        "avsc": "questionnaire"
       },
-      {
-        "name": "RSES",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 2,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "rses",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "estimatedCompletionTime": 4,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 4
-          },
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              600
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          },
-          "completionWindow": {
-            "unit": "day",
-            "amount": 3
-          }
-        }
+      "startText": {
+        "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
       },
-      {
-        "name": "ESM28Q",
-        "showIntroduction": false,
-        "showInCalendar": false,
-        "order": 0,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "esm28q",
-          "avsc": "questionnaire"
+      "endText": {
+        "en": "Thank you for taking the time today.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
         },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            540
+          ]
         },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
         },
-        "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "estimatedCompletionTime": 2,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "week",
-            "amount": 12
-          },
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              2006,
-              2156,
-              2300,
-              2421,
-              2499,
-              2688,
-              3519,
-              3585,
-              3666,
-              3889,
-              3992,
-              4067,
-              4870,
-              5050,
-              5200,
-              5300,
-              5396,
-              5550,
-              6343,
-              6425,
-              6550,
-              6707,
-              6888,
-              6965,
-              7755,
-              7899,
-              8040,
-              8200,
-              8273,
-              8374,
-              9289,
-              9389,
-              9449,
-              9600,
-              9745,
-              9889
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 0,
-            "repeat": 0
-          },
-          "completionWindow": {
-            "unit": "min",
-            "amount": 15
-          }
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 1
         }
       }
-    ]
-  }
-
+    },
+    {
+      "name": "RSES",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "order": 2,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "rses",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 4,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 4
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            780
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 4,
+          "repeat": 1
+        },
+        "completionWindow": {
+          "unit": "hour",
+          "amount": 1
+        }
+      }
+    },
+    {
+      "name": "ESM28Q",
+      "showIntroduction": false,
+      "showInCalendar": false,
+      "order": 0,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "esm28q",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "week",
+          "amount": 12
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            2006,
+            2156,
+            2300,
+            2421,
+            2499,
+            2688,
+            3519,
+            3585,
+            3666,
+            3889,
+            3992,
+            4067,
+            4870,
+            5050,
+            5200,
+            5300,
+            5396,
+            5550,
+            6343,
+            6425,
+            6550,
+            6707,
+            6888,
+            6965,
+            7755,
+            7899,
+            8040,
+            8200,
+            8273,
+            8374,
+            9289,
+            9389,
+            9449,
+            9600,
+            9745,
+            9889
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "min",
+          "amount": 15
+        }
+      }
+    }
+  ]
+}
