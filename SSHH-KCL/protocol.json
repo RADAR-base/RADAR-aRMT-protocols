@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "schemaVersion": "0.0.1",
-  "name": "RADAR SSHH KCL s1",
+  "name": "RADAR SSHH KCL S1",
   "healthIssues": [
     "Sleep Hygiene"
   ],
@@ -139,7 +139,7 @@
       }
     },
     {
-      "name": "Regular Health and Medication",
+      "name": "Regular Health And Medication",
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
@@ -271,7 +271,7 @@
       }
     },
     {
-      "name": "Sleep Routine & Smartphone Usage",
+      "name": "Sleep Routine And Smartphone Usage",
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
@@ -337,7 +337,7 @@
       }
     },
     {
-      "name": "Non-regular Activities",
+      "name": "Nonregular Activities",
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
@@ -865,7 +865,7 @@
       }
     },
     {
-      "name": "Positive And Negative Affect Schedule (PANAS) Short Form",
+      "name": "Positive And Negative Affect Schedule PANAS Short Form",
       "showIntroduction": false,
       "showInCalendar": false,
       "isDemo": false,
