@@ -1,0 +1,69 @@
+{
+  "version": "0.0.1",
+  "schemaVersion": "0.0.2",
+  "name": "RADAR-GLAD-KCL-s1 Project",
+  "healthIssues": [
+    "depression"
+  ],
+  "protocols": [
+    {
+      "name": "HEALTHKIT",
+      "showIntroduction": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "paprka_healthkit",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This questionnaire will collect your Healthkit data. Please ensure that you enable the HealthKit permissions when prompted. This will allow the RADAR app to collect your data.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Thank you for completing the task. Please check that all your data has been successfully sent. When you're ready, tap the 'Done' button to go back to the home page. From there, you can resend any data that didn't go through or return to the study portal to complete any remaining tasks.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "referenceTimestamp": {
+          "timestamp": "2016-07-01",
+          "format": "date"
+        },
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 9999
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [
+            9
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "year",
+          "amount": 10
+        }
+      }
+    }
+  ]
+}
