@@ -1,5 +1,5 @@
 {
-  "version": "0.0.13",
+  "version": "0.2.13",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
   "healthIssues": ["ADHD"],
@@ -43,7 +43,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 28
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -57,70 +57,6 @@
         "completionWindow": {
           "unit": "hour",
           "amount": 7
-        }
-      }
-    },
-    {
-      "name": "ADHD Medication Side Effects",
-      "showIntroduction": false,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 2,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "adhd_medication_side_effects",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "endText": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "warn": {
-        "en": "",
-        "it": "",
-        "nl": "",
-        "da": "",
-        "de": "",
-        "es": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "day",
-          "amount": 7
-        },
-        "repeatQuestionnaire": {
-          "unit": "min",
-          "unitsFromZero": [1020]
-        },
-        "reminders": {
-          "unit": "hour",
-          "amount": 24,
-          "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "hour",
-          "amount": 64
-        },
-        "notification": {
-          "title": {
-            "en": "Questionnaire time"
-          },
-          "text": {
-            "en": "Please finish them within 3 days."
-          }
         }
       }
     },
@@ -305,6 +241,14 @@
         "completionWindow": {
           "unit": "hour",
           "amount": 64
+        },
+        "notification": {
+          "title": {
+            "en": "Questionnaire time"
+          },
+          "text": {
+            "en": "Please finish them within 3 days."
+          }
         }
       }
     },
@@ -877,14 +821,14 @@
       }
     },
     {
-      "name": "Menstruation Consent",
+      "name": "Menstruation Weekly",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "art_menstruation_consent",
+        "name": "art_menstruation_weekly",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -914,12 +858,12 @@
       "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 999
+          "unit": "day",
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -927,10 +871,9 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "year",
-          "amount": 10
+          "unit": "day",
+          "amount": 3
         }
       }
-    }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "0.0.13",
+  "version": "0.1.13",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
   "healthIssues": ["ADHD"],
@@ -877,14 +877,14 @@
       }
     },
     {
-      "name": "Menstruation Consent",
+      "name": "Menstruation Weekly",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "art_menstruation_consent",
+        "name": "art_menstruation_weekly",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -914,12 +914,12 @@
       "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 999
+          "unit": "day",
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [1020]
         },
         "reminders": {
           "unit": "hour",
@@ -927,8 +927,8 @@
           "repeat": 0
         },
         "completionWindow": {
-          "unit": "year",
-          "amount": 10
+          "unit": "day",
+          "amount": 3
         }
       }
     }
