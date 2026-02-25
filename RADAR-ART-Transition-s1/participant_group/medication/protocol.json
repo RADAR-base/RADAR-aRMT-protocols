@@ -919,7 +919,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [540]
         },
         "reminders": {
           "unit": "hour",
