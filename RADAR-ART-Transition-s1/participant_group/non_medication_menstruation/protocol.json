@@ -1,15 +1,17 @@
 {
-  "version": "0.1.13",
+  "version": "0.2.13",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
-  "healthIssues": ["ADHD"],
+  "healthIssues": [
+    "ADHD"
+  ],
   "protocols": [
     {
       "name": "ADHD Medication Use Daily",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 1,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "adhd_medication_use_daily",
@@ -47,7 +49,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -103,7 +107,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -167,7 +173,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -231,7 +239,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -295,7 +305,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -359,7 +371,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -423,7 +437,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -487,7 +503,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -551,7 +569,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [
+            0
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -615,7 +635,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [
+            0
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -679,7 +701,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [
+            0
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -743,7 +767,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [40800]
+          "unitsFromZero": [
+            40800
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -807,7 +833,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -821,14 +849,14 @@
       }
     },
     {
-      "name": "Menstruation Consent",
+      "name": "Menstruation Weekly",
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
       "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "art_menstruation_consent",
+        "name": "art_menstruation_weekly",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -858,21 +886,23 @@
       "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 999
+          "unit": "day",
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
-          "amount": 0,
-          "repeat": 0
+          "amount": 24,
+          "repeat": 1
         },
         "completionWindow": {
-          "unit": "year",
-          "amount": 10
+          "unit": "hour",
+          "amount": 64
         }
       }
     }
