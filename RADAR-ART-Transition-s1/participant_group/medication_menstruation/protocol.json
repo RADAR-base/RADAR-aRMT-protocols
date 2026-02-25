@@ -923,12 +923,12 @@
         },
         "reminders": {
           "unit": "hour",
-          "amount": 0,
-          "repeat": 0
+          "amount": 24,
+          "repeat": 1
         },
         "completionWindow": {
-          "unit": "day",
-          "amount": 3
+          "unit": "hour",
+          "amount": 64
         }
       }
     }
