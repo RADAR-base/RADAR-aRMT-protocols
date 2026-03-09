@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB ",
   "healthIssues": [
@@ -20,7 +20,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Please answer the two global health items (overall health and overall quality of life).",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -28,7 +28,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you — this took only a moment.",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -79,7 +79,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Please complete the brain-tumour specific module (motor, communication and other items).",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
