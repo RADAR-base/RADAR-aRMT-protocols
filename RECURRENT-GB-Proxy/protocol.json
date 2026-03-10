@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -244,7 +244,7 @@
       }
     },
     {
-      "name": "WHO",
+      "name": "Six Weekly",
       "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": true,
