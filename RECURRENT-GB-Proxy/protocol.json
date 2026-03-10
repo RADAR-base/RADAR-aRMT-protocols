@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -193,7 +193,7 @@
       "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "recurrrent_weekly_proxy",
+        "name": "recurrent_weekly_proxy",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -252,7 +252,7 @@
       "order": 4,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "recurrrent_who_proxy",
+        "name": "recurrent_who_proxy",
         "avsc": "questionnaire"
       },
       "startText": {
