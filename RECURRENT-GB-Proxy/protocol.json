@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -15,7 +15,7 @@
       "isDemo": false,
       "order": 0,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "eq5d5l_recurrent_proxy",
         "avsc": "questionnaire"
       },
@@ -74,7 +74,7 @@
       "isDemo": false,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_costs_baseline_proxy",
         "avsc": "questionnaire"
       },
@@ -133,7 +133,7 @@
       "isDemo": false,
       "order": 2,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_costs_followup_proxy",
         "avsc": "questionnaire"
       },
@@ -192,7 +192,7 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrrent_weekly_proxy",
         "avsc": "questionnaire"
       },
@@ -251,7 +251,7 @@
       "isDemo": false,
       "order": 4,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrrent_who_proxy",
         "avsc": "questionnaire"
       },
@@ -310,7 +310,7 @@
       "isDemo": false,
       "order": 1,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "qlq-bn20",
         "avsc": "questionnaire"
       },
@@ -369,8 +369,8 @@
       "isDemo": false,
       "order": 3,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "qlq_c30",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "qlq-c30",
         "avsc": "questionnaire"
       },
       "startText": {
