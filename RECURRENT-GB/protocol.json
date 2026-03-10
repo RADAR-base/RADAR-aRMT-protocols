@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB ",
   "healthIssues": [
@@ -311,7 +311,7 @@
       "order": 10,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "recurrrent_weekly",
+        "name": "recurrent_weekly",
         "avsc": "questionnaire"
       },
       "startText": {
