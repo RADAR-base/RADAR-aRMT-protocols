@@ -1,5 +1,5 @@
 {
-  "version": "0.0.6",
+  "version": "0.0.8",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -8,7 +8,7 @@
   ],
   "protocols": [
     {
-      "name": "EQ-5D-5L",
+      "name": "Proxy 2",
       "type": "on_demand",
       "showIntroduction": true,
       "showInCalendar": true,
@@ -252,7 +252,7 @@
       "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "qlq-bn20",
+        "name": "qlq-bn20_proxy",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -311,7 +311,7 @@
       "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "qlq-c30",
+        "name": "qlq-c30_proxy",
         "avsc": "questionnaire"
       },
       "startText": {
