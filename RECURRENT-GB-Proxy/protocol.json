@@ -67,7 +67,7 @@
       }
     },
     {
-      "name": "EQ-5D-5L Proxy 2",
+      "name": "EQ-5D-5L-Proxy-2",
       "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
@@ -244,7 +244,7 @@
       }
     },
     {
-      "name": "Six Weekly",
+      "name": "Six-Weekly",
       "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
@@ -303,7 +303,7 @@
       }
     },
     {
-      "name": "EORTC QLQ BN20",
+      "name": "EORTC-QLQ-BN20",
       "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
@@ -362,7 +362,7 @@
       }
     },
     {
-      "name": "EORTC QLQ C30",
+      "name": "EORTC-QLQ-C30",
       "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
