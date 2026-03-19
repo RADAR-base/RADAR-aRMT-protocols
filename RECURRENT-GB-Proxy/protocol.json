@@ -1,5 +1,5 @@
 {
-  "version": "0.0.9",
+  "version": "0.0.10",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -8,8 +8,8 @@
   ],
   "protocols": [
     {
-      "name": "'EQ-5D-5L",
-      "type": "on_demand",
+      "name": "EQ-5D-5L",
+      "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -46,13 +46,13 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
+          "unit": "month",
+          "amount": 6
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            660
           ]
         },
         "reminders": {
@@ -67,8 +67,8 @@
       }
     },
     {
-      "name": "'EQ-5D-5L Proxy 2",
-      "type": "on_demand",
+      "name": "EQ-5D-5L Proxy 2",
+      "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -105,13 +105,13 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
+          "unit": "month",
+          "amount": 3
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            660
           ]
         },
         "reminders": {
@@ -127,7 +127,7 @@
     },
     {
       "name": "Costs Follow-up",
-      "type": "on_demand",
+      "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -164,13 +164,13 @@
       "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
+          "unit": "month",
+          "amount": 3
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            660
           ]
         },
         "reminders": {
@@ -186,7 +186,7 @@
     },
     {
       "name": "Weekly",
-      "type": "on_demand",
+      "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -223,13 +223,13 @@
       "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
+          "unit": "week",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            660
           ]
         },
         "reminders": {
@@ -245,7 +245,7 @@
     },
     {
       "name": "Six Weekly",
-      "type": "on_demand",
+      "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -282,13 +282,13 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
+          "unit": "week",
+          "amount": 6
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            660
           ]
         },
         "reminders": {
@@ -304,7 +304,7 @@
     },
     {
       "name": "EORTC QLQ BN20",
-      "type": "on_demand",
+      "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -323,7 +323,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you — your responses help track tumour-specific symptoms and function.",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -341,13 +341,13 @@
       "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
+          "unit": "week",
+          "amount": 6
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            660
           ]
         },
         "reminders": {
@@ -363,7 +363,7 @@
     },
     {
       "name": "EORTC QLQ C30",
-      "type": "on_demand",
+      "type": "scheduled",
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
@@ -382,7 +382,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you.",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -400,13 +400,13 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 9999
+          "unit": "week",
+          "amount": 6
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            480
+            660
           ]
         },
         "reminders": {
