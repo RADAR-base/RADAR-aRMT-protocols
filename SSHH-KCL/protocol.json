@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "schemaVersion": "0.0.1",
   "name": "RADAR SSHH KCL S1",
   "healthIssues": [
@@ -9,7 +9,7 @@
     {
       "name": "Demographics",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 1,
       "questionnaire": {
@@ -75,7 +75,7 @@
     {
       "name": "Technology Usage",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 1,
       "questionnaire": {
@@ -141,7 +141,7 @@
     {
       "name": "Regular Health And Medication",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 2,
       "questionnaire": {
@@ -207,7 +207,7 @@
     {
       "name": "Smartphone Usage Opportunity",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 2,
       "questionnaire": {
@@ -273,7 +273,7 @@
     {
       "name": "Sleep Routine And Smartphone Usage",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 2,
       "questionnaire": {
@@ -339,7 +339,7 @@
     {
       "name": "Nonregular Activities",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 2,
       "questionnaire": {
@@ -405,7 +405,7 @@
     {
       "name": "Regular Activities",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 2,
       "questionnaire": {
@@ -471,7 +471,7 @@
     {
       "name": "PHQ8",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 3,
       "questionnaire": {
@@ -537,7 +537,7 @@
     {
       "name": "GAD7",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 3,
       "questionnaire": {
@@ -603,7 +603,7 @@
     {
       "name": "Bergen Social Media Addiction Scale",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 3,
       "questionnaire": {
@@ -669,7 +669,7 @@
     {
       "name": "ADHD",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 4,
       "questionnaire": {
@@ -735,7 +735,7 @@
     {
       "name": "Stanford Sleepiness Scale",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 5,
       "questionnaire": {
@@ -801,7 +801,7 @@
     {
       "name": "Modified Single-item Sleep Quality Scale",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 5,
       "questionnaire": {
@@ -867,7 +867,7 @@
     {
       "name": "Positive And Negative Affect Schedule PANAS Short Form",
       "showIntroduction": false,
-      "showInCalendar": false,
+      "showInCalendar": true,
       "isDemo": false,
       "order": 5,
       "questionnaire": {
