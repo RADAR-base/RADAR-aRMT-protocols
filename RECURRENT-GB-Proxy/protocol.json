@@ -1,5 +1,5 @@
 {
-  "version": "0.0.10",
+  "version": "0.0.11",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -50,9 +50,9 @@
           "amount": 6
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            660
+            2195
           ]
         },
         "reminders": {
@@ -62,7 +62,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 62
         },
         "notification": {
           "title": {
@@ -117,9 +117,9 @@
           "amount": 3
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            660
+            2195
           ]
         },
         "reminders": {
@@ -129,7 +129,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 62
         },
         "notification": {
           "title": {
@@ -184,9 +184,9 @@
           "amount": 3
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            660
+            2195
           ]
         },
         "reminders": {
@@ -196,7 +196,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 62
         },
         "notification": {
           "title": {
@@ -251,9 +251,9 @@
           "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            660
+            179
           ]
         },
         "reminders": {
@@ -263,7 +263,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 14
         },
         "notification": {
           "title": {
@@ -318,9 +318,9 @@
           "amount": 6
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            660
+            179
           ]
         },
         "reminders": {
@@ -330,7 +330,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 14
         },
         "notification": {
           "title": {
@@ -385,9 +385,9 @@
           "amount": 6
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            660
+            179
           ]
         },
         "reminders": {
@@ -397,7 +397,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 14
         },
         "notification": {
           "title": {
@@ -452,9 +452,9 @@
           "amount": 6
         },
         "repeatQuestionnaire": {
-          "unit": "min",
+          "unit": "hour",
           "unitsFromZero": [
-            660
+            179
           ]
         },
         "reminders": {
@@ -464,7 +464,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 14
         },
         "notification": {
           "title": {
