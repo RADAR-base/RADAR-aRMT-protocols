@@ -1,5 +1,5 @@
 {
-  "version": "0.0.13",
+  "version": "0.0.14",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB ",
   "healthIssues": [
@@ -13,7 +13,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 1,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "qlq-bn20",
@@ -52,7 +52,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
@@ -80,7 +80,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "qlq-c30",
@@ -119,7 +119,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
@@ -214,7 +214,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 8,
+      "order": 5,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_costs_3months",
@@ -281,7 +281,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 10,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_weekly",
@@ -330,7 +330,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 7
         },
         "notification": {
           "title": {
@@ -348,7 +348,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 10,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_who",
@@ -387,7 +387,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
