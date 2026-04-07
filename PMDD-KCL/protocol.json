@@ -12,7 +12,7 @@
             "showIntroduction": true,
             "showInCalendar": true,
             "isDemo": false,
-            "order": "4",
+            "order": 4,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "phq8",
@@ -79,7 +79,7 @@
             "showIntroduction": false,
             "showInCalendar": true,
             "isDemo": false,
-            "order": "4",
+            "order": 4,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "gad7",
@@ -146,7 +146,7 @@
             "showIntroduction": true,
             "showInCalendar": true,
             "isDemo": false,
-            "order": "0",
+            "order": 0,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "pmdd_initial",
@@ -213,7 +213,7 @@
             "showIntroduction": true,
             "showInCalendar": true,
             "isDemo": false,
-            "order": "4",
+            "order": 4,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "pmdd_daily",
@@ -280,7 +280,7 @@
             "showIntroduction": true,
             "showInCalendar": true,
             "isDemo": false,
-            "order": "4",
+            "order": 4,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "pmdd_weekly",
