@@ -1,5 +1,5 @@
 {
-  "version": "0.0.11",
+  "version": "0.0.13",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -13,7 +13,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 0,
+      "order": 5,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "eq5d5l_recurrent_proxy",
@@ -46,23 +46,24 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "month",
-          "amount": 6
+          "unit": "year",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            2195
+            4379,
+            8771
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 62
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -80,7 +81,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 0,
+      "order": 4,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "eq5d5l_recurrent_proxy_2",
@@ -113,23 +114,26 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "month",
-          "amount": 3
+          "unit": "year",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            2195
+            2195,
+            4379,
+            6587,
+            8771
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 62
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -147,7 +151,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 2,
+      "order": 6,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_costs_followup_proxy",
@@ -180,23 +184,24 @@
       "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
-          "unit": "month",
-          "amount": 3
+          "unit": "year",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            2195
+            4379,
+            8771
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 62
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -214,7 +219,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_weekly_proxy",
@@ -257,13 +262,13 @@
           ]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 1
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 7
         },
         "notification": {
           "title": {
@@ -281,7 +286,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 4,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_who_proxy",
@@ -320,13 +325,13 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
@@ -348,7 +353,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 1,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "qlq-bn20_proxy",
@@ -387,13 +392,13 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
@@ -415,7 +420,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "qlq-c30_proxy",
@@ -454,13 +459,13 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",

@@ -1,5 +1,5 @@
 {
-  "version": "0.0.13",
+  "version": "0.0.15",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB ",
   "healthIssues": [
@@ -13,7 +13,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 1,
+      "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "qlq-bn20",
@@ -52,13 +52,13 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
@@ -80,7 +80,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "qlq-c30",
@@ -119,13 +119,13 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
@@ -180,23 +180,26 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "month",
-          "amount": 3
+          "unit": "year",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            2195
+            2195,
+            4379,
+            6587,
+            8771
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 62
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -214,7 +217,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 8,
+      "order": 5,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_costs_3months",
@@ -247,23 +250,26 @@
       "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
-          "unit": "month",
-          "amount": 3
+          "unit": "year",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            2195
+            2195,
+            4379,
+            6587,
+            8771
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 62
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -281,7 +287,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 10,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_weekly",
@@ -324,13 +330,13 @@
           ]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 1
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 7
         },
         "notification": {
           "title": {
@@ -348,7 +354,7 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 10,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_who",
@@ -387,13 +393,13 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            179
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
