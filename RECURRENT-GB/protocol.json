@@ -1,5 +1,5 @@
 {
-  "version": "0.0.14",
+  "version": "0.0.15",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB ",
   "healthIssues": [
@@ -57,8 +57,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
@@ -124,8 +124,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
@@ -180,23 +180,26 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "month",
-          "amount": 3
+          "unit": "year",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            2195
+            2195,
+            4379,
+            6587,
+            8771
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 62
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -247,23 +250,26 @@
       "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
-          "unit": "month",
-          "amount": 3
+          "unit": "year",
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            2195
+            2195,
+            4379,
+            6587,
+            8771
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 62
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -324,9 +330,9 @@
           ]
         },
         "reminders": {
-          "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "unit": "hour",
+          "amount": 24,
+          "repeat": 1
         },
         "completionWindow": {
           "unit": "day",
@@ -392,8 +398,8 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 0,
-          "repeat": 0
+          "amount": 7,
+          "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
