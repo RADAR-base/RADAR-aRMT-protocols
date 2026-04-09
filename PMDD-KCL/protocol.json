@@ -1,6 +1,6 @@
 {
     "name": "PMDD-KCL",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "schemaVersion": "0.1.0",
     "healthIssues": [
         "pmdd"
@@ -304,6 +304,78 @@
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "pmdd_weekly",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 2,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "day",
+                    "amount": 1
+                },
+                "repeatQuestionnaire": {
+                    "unit": "min",
+                    "unitsFromZero": [
+                        480
+                    ]
+                },
+                "reminders": {
+                    "unit": "hour",
+                    "amount": 0,
+                    "repeat": 0
+                },
+                "completionWindow": {
+                    "unit": "day",
+                    "amount": 1
+                },
+                "notification": {
+                    "title": {
+                        "en": "Questionnaire time"
+                    },
+                    "text": {
+                        "en": "Won't usually take longer than 2 minutes.",
+                        "it": "",
+                        "nl": "",
+                        "da": "",
+                        "de": "",
+                        "es": ""
+                    }
+                }
+            }
+        },
+        {
+            "name": "Biweekly Questionnaire",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "showInCalendar": true,
+            "isDemo": false,
+            "order": 4,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "pmdd_biweekly",
                 "avsc": "questionnaire"
             },
             "startText": {
