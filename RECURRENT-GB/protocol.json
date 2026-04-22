@@ -974,58 +974,6 @@
       }
     },
     {
-      "name": "Weekly - M3",
-      "type": "scheduled",
-      "showIntroduction": true,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 0,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "recurrent_weekly",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "Dear Participant, it is time for your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time. Many thanks, RECURRENT-GB Team"
-      },
-      "endText": {
-        "en": ""
-      },
-      "warn": {
-        "en": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "year",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            2195
-          ]
-        },
-        "reminders": {
-          "unit": "hour",
-          "amount": 24,
-          "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 7
-        },
-        "notification": {
-          "title": {
-            "en": "RECURRENT-GB Weekly Questionnaire"
-          },
-          "text": {
-            "en": "Hello, please complete your weekly RECURRENT-GB questionnaire here. Thank You!"
-          }
-        }
-      }
-    },
-    {
       "name": "Weekly - W13",
       "type": "scheduled",
       "showIntroduction": true,
@@ -2141,58 +2089,6 @@
           "unit": "hour",
           "unitsFromZero": [
             4211
-          ]
-        },
-        "reminders": {
-          "unit": "hour",
-          "amount": 24,
-          "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 7
-        },
-        "notification": {
-          "title": {
-            "en": "RECURRENT-GB Weekly Questionnaire"
-          },
-          "text": {
-            "en": "Hello, please complete your weekly RECURRENT-GB questionnaire here. Thank You!"
-          }
-        }
-      }
-    },
-    {
-      "name": "Weekly - M6",
-      "type": "scheduled",
-      "showIntroduction": true,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 0,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "recurrent_weekly",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "Dear Participant, it is time for your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time. Many thanks, RECURRENT-GB Team"
-      },
-      "endText": {
-        "en": ""
-      },
-      "warn": {
-        "en": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "year",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            4379
           ]
         },
         "reminders": {
@@ -3404,58 +3300,6 @@
       }
     },
     {
-      "name": "Weekly - M9",
-      "type": "scheduled",
-      "showIntroduction": true,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 0,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "recurrent_weekly",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "Dear Participant, it is time for your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time. Many thanks, RECURRENT-GB Team"
-      },
-      "endText": {
-        "en": ""
-      },
-      "warn": {
-        "en": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "year",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            6587
-          ]
-        },
-        "reminders": {
-          "unit": "hour",
-          "amount": 24,
-          "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 7
-        },
-        "notification": {
-          "title": {
-            "en": "RECURRENT-GB Weekly Questionnaire"
-          },
-          "text": {
-            "en": "Hello, please complete your weekly RECURRENT-GB questionnaire here. Thank You!"
-          }
-        }
-      }
-    },
-    {
       "name": "EQ-5D-5L - M9",
       "type": "scheduled",
       "showIntroduction": true,
@@ -3490,7 +3334,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            6587
+            6563
           ]
         },
         "reminders": {
@@ -3547,7 +3391,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            6587
+            6563
           ]
         },
         "reminders": {
@@ -4588,58 +4432,6 @@
       }
     },
     {
-      "name": "Weekly - M12",
-      "type": "scheduled",
-      "showIntroduction": true,
-      "showInCalendar": true,
-      "isDemo": false,
-      "order": 0,
-      "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "recurrent_weekly",
-        "avsc": "questionnaire"
-      },
-      "startText": {
-        "en": "Dear Participant, it is time for your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time. Many thanks, RECURRENT-GB Team"
-      },
-      "endText": {
-        "en": ""
-      },
-      "warn": {
-        "en": ""
-      },
-      "estimatedCompletionTime": 2,
-      "protocol": {
-        "repeatProtocol": {
-          "unit": "year",
-          "amount": 1
-        },
-        "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [
-            8771
-          ]
-        },
-        "reminders": {
-          "unit": "hour",
-          "amount": 24,
-          "repeat": 1
-        },
-        "completionWindow": {
-          "unit": "day",
-          "amount": 7
-        },
-        "notification": {
-          "title": {
-            "en": "RECURRENT-GB Weekly Questionnaire"
-          },
-          "text": {
-            "en": "Hello, please complete your weekly RECURRENT-GB questionnaire here. Thank You!"
-          }
-        }
-      }
-    },
-    {
       "name": "EQ-5D-5L - M12",
       "type": "scheduled",
       "showIntroduction": true,
@@ -4674,7 +4466,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            8771
+            8747
           ]
         },
         "reminders": {
@@ -4731,7 +4523,7 @@
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            8771
+            8747
           ]
         },
         "reminders": {
