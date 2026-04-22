@@ -1,5 +1,5 @@
 {
-  "version": "0.0.13",
+  "version": "0.0.14",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -20,7 +20,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Proxy, we'd be grateful if you could complete two short questionnaires: one about how your friend/partner/relative's treatment has impacted you - particularly in terms of time and costs, and one about your own quality of life. This helps us to understand the broader impact of care and support. Please answer these questions about yourself. The survey should take around 10-15 minutes to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Proxy, we’d be grateful if you could complete a short questionnaire which focuses on your friend/partner/relative’s quality of life and should take around 15 minutes to complete. Please answer the questionnaires with your own opinion on the participants’ health. If you experience any technical issues accessing the link above, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
         "it": "",
         "nl": "",
         "da": "",
@@ -67,10 +67,10 @@
         },
         "notification": {
           "title": {
-            "en": "RECURRENT-GB Participant Costs Questionnaire"
+            "en": "RECURRENT-GB 3-Monthly Questionnaire"
           },
           "text": {
-            "en": "Hello, please complete your RECURRENT-GB Participant Costs questionnaire here. Thank You!"
+            "en": "Hello, please complete your 3-monthly RECURRENT-GB questionnaire here. Thank You!"
           }
         }
       }
@@ -88,7 +88,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Proxy, we'd be grateful if you could complete a short questionnaire about how your friend/partner/relative's treatment has impacted them - particularly in terms of time and costs. Please answer these questions as if you are the patient. The survey should take around 10-15 minutes to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Proxy, we’d be grateful if you could complete a short questionnaire which focuses on your friend/partner/relative’s quality of life and should take around 15 minutes to complete. Please answer the questionnaires with your own opinion on the participants’ health. If you experience any technical issues accessing the link above, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
         "it": "",
         "nl": "",
         "da": "",
@@ -137,10 +137,10 @@
         },
         "notification": {
           "title": {
-            "en": "RECURRENT-GB Participant Costs Questionnaire"
+            "en": "RECURRENT-GB 3-Monthly Questionnaire"
           },
           "text": {
-            "en": "Hello, please complete your RECURRENT-GB Participant Costs questionnaire here. Thank You!"
+            "en": "Hello, please complete your 3-monthly RECURRENT-GB questionnaire here. Thank You!"
           }
         }
       }
@@ -226,7 +226,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Proxy, it is time for your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Proxy, it is time for your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. Please answer with your own opinion on the participants’ health. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time. Many thanks, RECURRENT-GB Team",
         "it": "",
         "nl": "",
         "da": "",
@@ -293,7 +293,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Proxy, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your friend's/partner's/relative's quality of life and should take around 15 minutes to complete. Please answer the questionnaires how you think they would describe their own health. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Proxy, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your friend's/partner's/relative's quality of life and should take around 15 minutes to complete. Please answer the questionnaires with your own opinion on the participants’ health. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
         "it": "",
         "nl": "",
         "da": "",
@@ -360,7 +360,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Proxy, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your friend's/partner's/relative's quality of life and should take around 15 minutes to complete. Please answer the questionnaires how you think they would describe their own health. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Proxy, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your friend's/partner's/relative's quality of life and should take around 15 minutes to complete. Please answer the questionnaires with your own opinion on the participants’ health. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
         "it": "",
         "nl": "",
         "da": "",
@@ -427,7 +427,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Proxy, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your friend's/partner's/relative's quality of life and should take around 15 minutes to complete. Please answer the questionnaires how you think they would describe their own health. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Proxy, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your friend's/partner's/relative's quality of life and should take around 15 minutes to complete. Please answer the questionnaires with your own opinion on the participants’ health. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
         "it": "",
         "nl": "",
         "da": "",
