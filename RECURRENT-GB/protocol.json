@@ -20,7 +20,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Participant, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your quality of life and should take around 15 minutes to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -87,7 +87,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Participant, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your quality of life and should take around 15 minutes to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -154,7 +154,7 @@
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Participant, we'd be grateful if you could complete two short questionnaires - one about how treatment has impacted your use of health services and cost, and one about your quality of life. The survey should take around 10-15 minutes to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "",
         "it": "",
         "nl": "",
         "da": "",
@@ -217,14 +217,14 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 5,
+      "order": 3,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_costs_3months",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Participant, we'd be grateful if you could complete two short questionnaires - one about how treatment has impacted your use of health services and cost, and one about your quality of life. The survey should take around 10-15 minutes to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Participant, these are two short questionnaires - one about how treatment has impacted your use of health services and cost, and one about your quality of life. The survey should take around 10–15 minutes to complete. If you experience any technical issues accessing the questionnaires, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time and input. Many thanks, RECURRENT-GB Team  ",
         "it": "",
         "nl": "",
         "da": "",
@@ -287,14 +287,14 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 0,
+      "order": 1,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_weekly",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Participant, it is time for your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Participant, this is your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. If you experience any technical issues accessing the questionnaire, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time. Many thanks, RECURRENT-GB Team",
         "it": "",
         "nl": "",
         "da": "",
@@ -359,14 +359,14 @@
       "showIntroduction": true,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 3,
+      "order": 0,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "recurrent_who",
         "avsc": "questionnaire"
       },
       "startText": {
-        "en": "Dear Participant, it is time for your 6-weekly RECURRENT-GB set of questionnaires, which focus on your quality of life and should take around 15 minutes to complete. If you experience any technical issues, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation - we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+        "en": "Dear Participant, these are your 6-weekly RECURRENT-GB set of questionnaires, which focus on your quality of life and should take around 15 minutes to complete. If you experience any technical issues accessing the questionnaires, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
         "it": "",
         "nl": "",
         "da": "",
