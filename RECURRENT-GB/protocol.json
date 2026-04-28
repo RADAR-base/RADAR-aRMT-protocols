@@ -345,6 +345,11 @@
           "text": {
             "en": "Hello, please complete your weekly RECURRENT-GB questionnaire here. Thank You!"
           }
+        },
+        "metaData": {
+          "series": "weekly",
+          "prefix": "W",
+          "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
         }
       }
     },
