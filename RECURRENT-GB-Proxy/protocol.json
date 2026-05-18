@@ -1,5 +1,5 @@
 {
-  "version": "0.0.21",
+  "version": "0.0.22",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -263,7 +263,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 1
         },
         "notification": {
           "title": {
