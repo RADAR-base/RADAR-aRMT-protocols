@@ -1,5 +1,5 @@
 {
-  "version": "0.0.19",
+  "version": "0.0.20",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB ",
   "healthIssues": [
@@ -62,7 +62,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 1
         },
         "notification": {
           "title": {
@@ -129,7 +129,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 1
         },
         "notification": {
           "title": {
@@ -196,7 +196,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 61
+          "amount": 1
         },
         "notification": {
           "title": {
@@ -263,7 +263,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 61
+          "amount": 1
         },
         "notification": {
           "title": {
@@ -402,7 +402,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 1
         },
         "notification": {
           "title": {
