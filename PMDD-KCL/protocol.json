@@ -1,6 +1,6 @@
 {
     "name": "PMDD-KCL",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "schemaVersion": "0.1.0",
     "healthIssues": [
         "pmdd"
@@ -45,13 +45,13 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "year",
+                    "amount": 999
                 },
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        480
+                        540
                     ]
                 },
                 "reminders": {
@@ -61,20 +61,7 @@
                 },
                 "completionWindow": {
                     "unit": "day",
-                    "amount": 1
-                },
-                "notification": {
-                    "title": {
-                        "en": "Questionnaire time"
-                    },
-                    "text": {
-                        "en": "Won't usually take longer than 2 minutes.",
-                        "it": "",
-                        "nl": "",
-                        "da": "",
-                        "de": "",
-                        "es": ""
-                    }
+                    "amount": 7
                 }
             }
         },
@@ -123,7 +110,7 @@
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        480
+                        540
                     ]
                 },
                 "reminders": {
@@ -132,21 +119,8 @@
                     "repeat": 0
                 },
                 "completionWindow": {
-                    "unit": "day",
-                    "amount": 1
-                },
-                "notification": {
-                    "title": {
-                        "en": "Questionnaire time"
-                    },
-                    "text": {
-                        "en": "Won't usually take longer than 2 minutes.",
-                        "it": "",
-                        "nl": "",
-                        "da": "",
-                        "de": "",
-                        "es": ""
-                    }
+                    "unit": "hour",
+                    "amount": 15
                 }
             }
         },
@@ -189,13 +163,17 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "year",
+                    "amount": 999
                 },
                 "repeatQuestionnaire": {
-                    "unit": "min",
+                    "unit": "hour",
                     "unitsFromZero": [
-                        480
+                        9,
+                        345,
+                        681,
+                        1017,
+                        1353
                     ]
                 },
                 "reminders": {
@@ -205,20 +183,7 @@
                 },
                 "completionWindow": {
                     "unit": "day",
-                    "amount": 1
-                },
-                "notification": {
-                    "title": {
-                        "en": "Questionnaire time"
-                    },
-                    "text": {
-                        "en": "Won't usually take longer than 2 minutes.",
-                        "it": "",
-                        "nl": "",
-                        "da": "",
-                        "de": "",
-                        "es": ""
-                    }
+                    "amount": 7
                 }
             }
         },
@@ -261,13 +226,16 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "year",
+                    "amount": 999
                 },
                 "repeatQuestionnaire": {
-                    "unit": "min",
+                    "unit": "hour",
                     "unitsFromZero": [
-                        480
+                        177,
+                        513,
+                        849,
+                        1185
                     ]
                 },
                 "reminders": {
@@ -277,20 +245,7 @@
                 },
                 "completionWindow": {
                     "unit": "day",
-                    "amount": 1
-                },
-                "notification": {
-                    "title": {
-                        "en": "Questionnaire time"
-                    },
-                    "text": {
-                        "en": "Won't usually take longer than 2 minutes.",
-                        "it": "",
-                        "nl": "",
-                        "da": "",
-                        "de": "",
-                        "es": ""
-                    }
+                    "amount": 7
                 }
             }
         },
@@ -333,13 +288,13 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "year",
+                    "amount": 999
                 },
                 "repeatQuestionnaire": {
-                    "unit": "min",
+                    "unit": "hour",
                     "unitsFromZero": [
-                        480
+                        1521
                     ]
                 },
                 "reminders": {
@@ -349,20 +304,7 @@
                 },
                 "completionWindow": {
                     "unit": "day",
-                    "amount": 1
-                },
-                "notification": {
-                    "title": {
-                        "en": "Questionnaire time"
-                    },
-                    "text": {
-                        "en": "Won't usually take longer than 2 minutes.",
-                        "it": "",
-                        "nl": "",
-                        "da": "",
-                        "de": "",
-                        "es": ""
-                    }
+                    "amount": 7
                 }
             }
         }
