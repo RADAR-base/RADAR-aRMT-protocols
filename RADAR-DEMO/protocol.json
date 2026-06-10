@@ -10,7 +10,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "bergen_social_media_addiction_scale_armt",
+        "name": "bergen_social_media_addiction_scale",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -60,7 +60,7 @@
       "showIntroduction": true,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "smartphone_usage_opportunity_armt",
+        "name": "smartphone_usage_opportunity",
         "avsc": "questionnaire"
       },
       "startText": {
