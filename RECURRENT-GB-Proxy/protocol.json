@@ -1,5 +1,5 @@
 {
-  "version": "0.0.19",
+  "version": "0.0.24",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -58,7 +58,7 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
@@ -128,7 +128,7 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
@@ -196,7 +196,7 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
@@ -330,7 +330,7 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
@@ -397,7 +397,7 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
@@ -464,7 +464,7 @@
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
