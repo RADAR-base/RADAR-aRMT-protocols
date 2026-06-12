@@ -1,5 +1,5 @@
 {
-  "version": "0.0.23",
+  "version": "0.0.24",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -46,23 +46,24 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
+          "unit": "year",
           "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            480
+            4379,
+            8747
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -113,23 +114,26 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
+          "unit": "year",
           "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            480
+            2195,
+            4379,
+            6563,
+            8747
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -180,23 +184,24 @@
       "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
+          "unit": "year",
           "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            480
+            4379,
+            8747
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 61
         },
         "notification": {
           "title": {
@@ -247,13 +252,13 @@
       "estimatedCompletionTime": 2,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
+          "unit": "week",
           "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            480
+            179
           ]
         },
         "reminders": {
@@ -263,7 +268,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 7
         },
         "notification": {
           "title": {
@@ -314,23 +319,23 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "week",
+          "amount": 6
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            480
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 14
         },
         "notification": {
           "title": {
@@ -381,23 +386,23 @@
       "estimatedCompletionTime": 5,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "week",
+          "amount": 6
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            480
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 14
         },
         "notification": {
           "title": {
@@ -448,23 +453,23 @@
       "estimatedCompletionTime": 3,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "week",
+          "amount": 6
         },
         "repeatQuestionnaire": {
           "unit": "hour",
           "unitsFromZero": [
-            480
+            1019
           ]
         },
         "reminders": {
           "unit": "day",
-          "amount": 7,
+          "amount": 6,
           "repeat": 2
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 14
         },
         "notification": {
           "title": {
