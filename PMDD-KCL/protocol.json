@@ -1,6 +1,6 @@
 {
     "name": "PMDD-KCL",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "schemaVersion": "0.1.0",
     "healthIssues": [
         "pmdd"
@@ -71,7 +71,7 @@
             "showIntroduction": true,
             "showInCalendar": true,
             "isDemo": false,
-            "order": 4,
+            "order": 1,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "pmdd_daily",
@@ -130,7 +130,7 @@
             "showIntroduction": true,
             "showInCalendar": true,
             "isDemo": false,
-            "order": 4,
+            "order": 2,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "pmdd_weekly",
@@ -193,7 +193,7 @@
             "showIntroduction": true,
             "showInCalendar": true,
             "isDemo": false,
-            "order": 4,
+            "order": 3,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "pmdd_biweekly",
@@ -262,7 +262,7 @@
                 "avsc": "questionnaire"
             },
             "startText": {
-                "en": "",
+                "en": "Thank you for your participation in the Cycle Study. This is your final weekly questionnaire.",
                 "it": "",
                 "nl": "",
                 "da": "",
