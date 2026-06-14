@@ -1,5 +1,5 @@
 {
-  "version": "0.0.24",
+  "version": "0.0.25",
   "schemaVersion": "0.0.1",
   "name": "RECURRENT-GB Proxy",
   "healthIssues": [
@@ -72,6 +72,11 @@
           "text": {
             "en": "Hello, please complete your 3-monthly RECURRENT-GB questionnaire here. Thank You!"
           }
+        },
+        "metaData": {
+          "series": "three_monthly",
+          "prefix": "3M",
+          "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
         }
       }
     },
@@ -142,6 +147,11 @@
           "text": {
             "en": "Hello, please complete your 3-monthly RECURRENT-GB questionnaire here. Thank You!"
           }
+        },
+        "metaData": {
+          "series": "three_monthly",
+          "prefix": "3M",
+          "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
         }
       }
     },
@@ -210,6 +220,11 @@
           "text": {
             "en": "Hello, please complete your RECURRENT-GB Participant Costs questionnaire here. Thank You!"
           }
+        },
+        "metaData": {
+          "series": "three_monthly",
+          "prefix": "3M",
+          "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
         }
       }
     },
@@ -277,6 +292,11 @@
           "text": {
             "en": "Hello, please complete your weekly RECURRENT-GB questionnaire here. Thank You!"
           }
+        },
+        "metaData": {
+          "series": "weekly",
+          "prefix": "W",
+          "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
         }
       }
     },
@@ -344,6 +364,11 @@
           "text": {
             "en": "Hello, please complete your 6-weekly RECURRENT-GB questionnaires here. Thank You!"
           }
+        },
+        "metaData": {
+          "series": "six_weekly",
+          "prefix": "6W",
+          "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
         }
       }
     },
@@ -411,6 +436,11 @@
           "text": {
             "en": "Hello, please complete your 6-weekly RECURRENT-GB questionnaires here. Thank You!"
           }
+        },
+        "metaData": {
+          "series": "six_weekly",
+          "prefix": "6W",
+          "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
         }
       }
     },
@@ -478,6 +508,11 @@
           "text": {
             "en": "Hello, please complete your 6-weekly RECURRENT-GB questionnaires here. Thank You!"
           }
+        },
+        "metaData": {
+          "series": "six_weekly",
+          "prefix": "6W",
+          "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
         }
       }
     }

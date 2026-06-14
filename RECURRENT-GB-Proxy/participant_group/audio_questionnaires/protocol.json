@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "schemaVersion": "0.0.2",
     "name": "RECURRENT-GB Proxy Audio & Questionnaires",
     "healthIssues": [
@@ -7,6 +7,515 @@
         "neuro-oncology"
     ],
     "protocols": [
+        {
+            "name": "EQ-5D-5L",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "showInCalendar": true,
+            "isDemo": false,
+            "order": 5,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "eq5d5l_recurrent_proxy",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 3,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "year",
+                    "amount": 1
+                },
+                "repeatQuestionnaire": {
+                    "unit": "hour",
+                    "unitsFromZero": [
+                        4379,
+                        8747
+                    ]
+                },
+                "reminders": {
+                    "unit": "day",
+                    "amount": 6,
+                    "repeat": 2
+                },
+                "completionWindow": {
+                    "unit": "day",
+                    "amount": 61
+                },
+                "notification": {
+                    "title": {
+                        "en": "RECURRENT-GB 3-Monthly Questionnaire"
+                    },
+                    "text": {
+                        "en": "Hello, please complete your 3-monthly RECURRENT-GB questionnaire here. Thank You!"
+                    }
+                },
+                "metaData": {
+                    "series": "three_monthly",
+                    "prefix": "3M",
+                    "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
+                }
+            }
+        },
+        {
+            "name": "EQ-5D-5L Proxy-1",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "showInCalendar": true,
+            "isDemo": false,
+            "order": 4,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "eq5d5l_recurrent_proxy_2",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "Dear Proxy, This is a short questionnaire which focuses on your friend/partner/relative’s quality of life and should take around 5 minutes to complete. Please answer the questionnaire with your own opinion on the participants’ health. If you experience any technical issues accessing the questionnaires, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 3,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "year",
+                    "amount": 1
+                },
+                "repeatQuestionnaire": {
+                    "unit": "hour",
+                    "unitsFromZero": [
+                        2195,
+                        4379,
+                        6563,
+                        8747
+                    ]
+                },
+                "reminders": {
+                    "unit": "day",
+                    "amount": 6,
+                    "repeat": 2
+                },
+                "completionWindow": {
+                    "unit": "day",
+                    "amount": 61
+                },
+                "notification": {
+                    "title": {
+                        "en": "RECURRENT-GB 3-Monthly Questionnaire"
+                    },
+                    "text": {
+                        "en": "Hello, please complete your 3-monthly RECURRENT-GB questionnaire here. Thank You!"
+                    }
+                },
+                "metaData": {
+                    "series": "three_monthly",
+                    "prefix": "3M",
+                    "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
+                }
+            }
+        },
+        {
+            "name": "Costs Follow-up",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "showInCalendar": true,
+            "isDemo": false,
+            "order": 6,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "recurrent_costs_followup_proxy",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "Dear Proxy, these are two short questionnaires: one about how your friend/partner/relative’s treatment has impacted you – particularly in terms of time and costs, and one about your own quality of life. This helps us to understand the broader impact of care and support. Please answer all these questions about yourself. The survey should take around 10–15 minutes to complete. If you experience any technical issues accessing the questionnaires, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 5,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "year",
+                    "amount": 1
+                },
+                "repeatQuestionnaire": {
+                    "unit": "hour",
+                    "unitsFromZero": [
+                        4379,
+                        8747
+                    ]
+                },
+                "reminders": {
+                    "unit": "day",
+                    "amount": 6,
+                    "repeat": 2
+                },
+                "completionWindow": {
+                    "unit": "day",
+                    "amount": 61
+                },
+                "notification": {
+                    "title": {
+                        "en": "RECURRENT-GB Participant Costs Questionnaire"
+                    },
+                    "text": {
+                        "en": "Hello, please complete your RECURRENT-GB Participant Costs questionnaire here. Thank You!"
+                    }
+                },
+                "metaData": {
+                    "series": "three_monthly",
+                    "prefix": "3M",
+                    "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
+                }
+            }
+        },
+        {
+            "name": "Weekly",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "showInCalendar": true,
+            "isDemo": false,
+            "order": 0,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "recurrent_weekly_proxy",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "Dear Proxy, this is your weekly RECURRENT-GB questionnaire. There are just 3 quick questions, which should only take a minute to complete. Please answer with your own opinion on the participants’ health. If you experience any technical issues accessing the questionnaires, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time. Many thanks, RECURRENT-GB Team",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 2,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "week",
+                    "amount": 1
+                },
+                "repeatQuestionnaire": {
+                    "unit": "hour",
+                    "unitsFromZero": [
+                        179
+                    ]
+                },
+                "reminders": {
+                    "unit": "hour",
+                    "amount": 24,
+                    "repeat": 1
+                },
+                "completionWindow": {
+                    "unit": "day",
+                    "amount": 7
+                },
+                "notification": {
+                    "title": {
+                        "en": "RECURRENT-GB Weekly Questionnaire"
+                    },
+                    "text": {
+                        "en": "Hello, please complete your weekly RECURRENT-GB questionnaire here. Thank You!"
+                    }
+                },
+                "metaData": {
+                    "series": "weekly",
+                    "prefix": "W",
+                    "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
+                }
+            }
+        },
+        {
+            "name": "Six Weekly",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "showInCalendar": true,
+            "isDemo": false,
+            "order": 1,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "recurrent_who_proxy",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "Dear Proxy, these are your 6-weekly RECURRENT-GB set of questionnaires, which focus on your friend/partner/relative’s quality of life and should take around 15 minutes to complete. Please answer all the questionnaires with your own opinion on the participants’ health. If you experience any technical issues accessing the questionnaires, please contact the research team coordinating the trial at the University of Oxford. You can reach us by phone on 07917101649 (Mon-Fri 9am-5pm) or by email at recurrentgb@nds.ox.ac.uk. Thank you for your continued participation – we truly appreciate your time and input. Many thanks, RECURRENT-GB Team",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 3,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "week",
+                    "amount": 6
+                },
+                "repeatQuestionnaire": {
+                    "unit": "hour",
+                    "unitsFromZero": [
+                        1019
+                    ]
+                },
+                "reminders": {
+                    "unit": "day",
+                    "amount": 6,
+                    "repeat": 2
+                },
+                "completionWindow": {
+                    "unit": "day",
+                    "amount": 14
+                },
+                "notification": {
+                    "title": {
+                        "en": "RECURRENT-GB 6-weekly Questionnaires"
+                    },
+                    "text": {
+                        "en": "Hello, please complete your 6-weekly RECURRENT-GB questionnaires here. Thank You!"
+                    }
+                },
+                "metaData": {
+                    "series": "six_weekly",
+                    "prefix": "6W",
+                    "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
+                }
+            }
+        },
+        {
+            "name": "EORTC-QLQ-BN20",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "showInCalendar": true,
+            "isDemo": false,
+            "order": 3,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "qlq-bn20_proxy",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 5,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "week",
+                    "amount": 6
+                },
+                "repeatQuestionnaire": {
+                    "unit": "hour",
+                    "unitsFromZero": [
+                        1019
+                    ]
+                },
+                "reminders": {
+                    "unit": "day",
+                    "amount": 6,
+                    "repeat": 2
+                },
+                "completionWindow": {
+                    "unit": "day",
+                    "amount": 14
+                },
+                "notification": {
+                    "title": {
+                        "en": "RECURRENT-GB 6-weekly Questionnaires"
+                    },
+                    "text": {
+                        "en": "Hello, please complete your 6-weekly RECURRENT-GB questionnaires here. Thank You!"
+                    }
+                },
+                "metaData": {
+                    "series": "six_weekly",
+                    "prefix": "6W",
+                    "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
+                }
+            }
+        },
+        {
+            "name": "EORTC-QLQ-C30",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "showInCalendar": true,
+            "isDemo": false,
+            "order": 2,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "qlq-c30_proxy",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 3,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "week",
+                    "amount": 6
+                },
+                "repeatQuestionnaire": {
+                    "unit": "hour",
+                    "unitsFromZero": [
+                        1019
+                    ]
+                },
+                "reminders": {
+                    "unit": "day",
+                    "amount": 6,
+                    "repeat": 2
+                },
+                "completionWindow": {
+                    "unit": "day",
+                    "amount": 14
+                },
+                "notification": {
+                    "title": {
+                        "en": "RECURRENT-GB 6-weekly Questionnaires"
+                    },
+                    "text": {
+                        "en": "Hello, please complete your 6-weekly RECURRENT-GB questionnaires here. Thank You!"
+                    }
+                },
+                "metaData": {
+                    "series": "six_weekly",
+                    "prefix": "6W",
+                    "displayTemplate": "{{name}}|{{prefix}}{{autoIndex}}"
+                }
+            }
+        },
         {
             "name": "Naming and Speech Tasks - Auditory Naming",
             "showIntroduction": true,
