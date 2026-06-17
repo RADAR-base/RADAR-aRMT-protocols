@@ -109,12 +109,14 @@
       }
     },
     {
-      "name": "Audio",
-      "type": "on_demand",
-      "showIntroduction": true,
+      "name": "AUDIO_COUNT",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 9,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio_without_unscripted_4",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "audio_count",
         "avsc": "questionnaire"
       },
       "startText": {
