@@ -1,7 +1,7 @@
 {
-  "version": "0.0.2",
-  "schemaVersion": "0.0.1",
-  "name": "RADAR-Demo UKIV confernence",
+  "version": "0.0.3",
+  "schemaVersion": "0.0.3",
+  "name": "RADAR-Demo UKIV conference",
   "healthIssues": ["Demo"],
   "protocols": [
     {
@@ -44,8 +44,10 @@
           "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [6]
+          "unit": "min",
+          "unitsFromZero": [
+            480,490,500,510,520,530,540,550,560,570,580,590,600,610,620,630,640,650,660,670,680,690,700,710,720,730,740,750,760,770,780,790,800,810,820,830,840,850,860,870,880,890,900,910,920,930,940,950,960,970,980,990,1000,1010,1020,1030,1040,1050,1060,1070
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -94,8 +96,10 @@
           "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [6]
+          "unit": "min",
+          "unitsFromZero": [
+            480,490,500,510,520,530,540,550,560,570,580,590,600,610,620,630,640,650,660,670,680,690,700,710,720,730,740,750,760,770,780,790,800,810,820,830,840,850,860,870,880,890,900,910,920,930,940,950,960,970,980,990,1000,1010,1020,1030,1040,1050,1060,1070
+          ]
         },
         "reminders": {
           "unit": "day",
@@ -105,12 +109,14 @@
       }
     },
     {
-      "name": "Audio",
-      "type": "on_demand",
-      "showIntroduction": true,
+      "name": "AUDIO_COUNT",
+      "showIntroduction": false,
+      "showInCalendar": true,
+      "isDemo": false,
+      "order": 9,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio_without_unscripted_4",
+        "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "audio_count",
         "avsc": "questionnaire"
       },
       "startText": {
@@ -144,8 +150,10 @@
           "amount": 1
         },
         "repeatQuestionnaire": {
-          "unit": "hour",
-          "unitsFromZero": [6]
+          "unit": "min",
+          "unitsFromZero": [
+            480,490,500,510,520,530,540,550,560,570,580,590,600,610,620,630,640,650,660,670,680,690,700,710,720,730,740,750,760,770,780,790,800,810,820,830,840,850,860,870,880,890,900,910,920,930,940,950,960,970,980,990,1000,1010,1020,1030,1040,1050,1060,1070
+          ]
         },
         "reminders": {
           "unit": "day",
