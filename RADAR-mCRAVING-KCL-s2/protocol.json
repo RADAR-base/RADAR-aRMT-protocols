@@ -41,7 +41,7 @@
               "de": "",
               "es": ""
           },
-          "estimatedCompletionTime": "1",
+          "estimatedCompletionTime": 1,
           "protocol": {
               "repeatProtocol": {
                   "unit": "day",
