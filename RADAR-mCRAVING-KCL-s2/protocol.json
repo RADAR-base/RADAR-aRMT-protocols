@@ -55,12 +55,12 @@
               },
               "reminders": {
                   "unit": "min",
-                  "amount": "30",
+                  "amount": 30,
                   "repeat": 1
               },
               "completionWindow": {
                   "unit": "hour",
-                  "amount": "1"
+                  "amount": 1
               },
               "notification": {
                   "title": {
