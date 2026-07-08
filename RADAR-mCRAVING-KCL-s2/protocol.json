@@ -1,6 +1,6 @@
 {
-  "version": "0.0.2",
-  "schemaVersion": "0.0.2",
+  "version": "0.0.3",
+  "schemaVersion": "0.0.3",
   "name": "RADAR mCRAVING KCL s2",
   "healthIssues": [
       "Cocaine Craving"
@@ -81,7 +81,7 @@
           "order": 0,
           "questionnaire": {
               "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-              "name": "jita_mcraving_armt",
+              "name": "jita_mcraving",
               "avsc": "questionnaire"
           },
           "startText": {
