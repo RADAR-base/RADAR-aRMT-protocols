@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "schemaVersion": "0.0.3",
   "name": "RADAR mCRAVING KCL s2",
   "healthIssues": [
@@ -74,7 +74,7 @@
       }
       ,
       {
-          "name": "Cocaine Craving JITAI",
+          "name": "Craving Survey",
           "type": "triggered",
           "showIntroduction": true,
           "isDemo": false,
