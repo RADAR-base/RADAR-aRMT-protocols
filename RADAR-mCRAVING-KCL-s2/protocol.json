@@ -1,5 +1,5 @@
 {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "schemaVersion": "0.0.3",
     "name": "RADAR mCRAVING KCL s2",
     "healthIssues": [
@@ -75,6 +75,138 @@
         {
             "name": "Craving Survey",
             "type": "triggered",
+            "showIntroduction": true,
+            "isDemo": false,
+            "order": 0,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "jita_mcraving",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 3,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "year",
+                    "amount": 9999
+                },
+                "repeatQuestionnaire": {
+                    "unit": "min",
+                    "unitsFromZero": [
+                        0
+                    ]
+                },
+                "reminders": {
+                    "unit": "hour",
+                    "amount": 9,
+                    "repeat": 0
+                },
+                "completionWindow": {
+                    "unit": "hour",
+                    "amount": 2
+                },
+                "notification": {
+                    "title": {
+                        "en": "Questionnaire time"
+                    },
+                    "text": {
+                        "en": "Please finish them within 2 hours."
+                    }
+                }
+            }
+        },
+        {
+            "name": "8PM Survey - OD",
+            "showIntroduction": true,
+            "type": "on_demand",
+            "isDemo": false,
+            "order": 1,
+            "questionnaire": {
+                "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+                "name": "fixed_ema_study_3",
+                "avsc": "questionnaire"
+            },
+            "startText": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "endText": {
+                "en": "Thank you for taking the time today.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "warn": {
+                "en": "",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+            },
+            "estimatedCompletionTime": 1,
+            "protocol": {
+                "repeatProtocol": {
+                    "unit": "day",
+                    "amount": 1
+                },
+                "repeatQuestionnaire": {
+                    "unit": "hour",
+                    "unitsFromZero": [
+                        20
+                    ]
+                },
+                "reminders": {
+                    "unit": "min",
+                    "amount": 30,
+                    "repeat": 1
+                },
+                "completionWindow": {
+                    "unit": "hour",
+                    "amount": 1
+                },
+                "notification": {
+                    "title": {
+                        "en": "Questionnaire time"
+                    },
+                    "text": {
+                        "en": "Please finish them within 1 hour."
+                    }
+                }
+            }
+        },
+        {
+            "name": "Craving Survey - OD",
+            "type": "on_demand",
             "showIntroduction": true,
             "isDemo": false,
             "order": 0,
