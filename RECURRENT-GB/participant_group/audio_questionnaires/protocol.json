@@ -1,5 +1,5 @@
 {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "schemaVersion": "0.0.2",
     "name": "RECURRENT-GB Audio & Questionnaires",
     "healthIssues": [
@@ -446,10 +446,10 @@
             }
         },
         {
-            "name": "Naming and Speech Tasks - Auditory Naming",
+            "name": "Auditory Naming",
             "showIntroduction": true,
-            "type": "on_demand",
-            "order": 1,
+            "type": "scheduled",
+            "order": 5,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_auditory_naming",
@@ -482,8 +482,8 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "week",
+                    "amount": 6
                 },
                 "repeatQuestionnaire": {
                     "unit": "min",
@@ -497,16 +497,16 @@
                     "repeat": 0
                 },
                 "completionWindow": {
-                    "unit": "hour",
-                    "amount": 24
+                    "unit": "day",
+                    "amount": 14
                 }
             }
         },
         {
-            "name": "Naming and Speech Tasks - Picture Naming",
+            "name": "Picture Naming",
             "showIntroduction": true,
-            "type": "on_demand",
-            "order": 2,
+            "type": "scheduled",
+            "order": 6,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_picture_naming",
@@ -539,8 +539,8 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "week",
+                    "amount": 6
                 },
                 "repeatQuestionnaire": {
                     "unit": "min",
@@ -554,16 +554,16 @@
                     "repeat": 0
                 },
                 "completionWindow": {
-                    "unit": "hour",
-                    "amount": 24
+                    "unit": "day",
+                    "amount": 14
                 }
             }
         },
         {
-            "name": "Naming and Speech Tasks - Free Speech Picture",
+            "name": "Free Speech - Picture",
             "showIntroduction": true,
-            "type": "on_demand",
-            "order": 3,
+            "type": "scheduled",
+            "order": 7,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_free_speech_picture",
@@ -596,8 +596,8 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "week",
+                    "amount": 6
                 },
                 "repeatQuestionnaire": {
                     "unit": "min",
@@ -611,16 +611,16 @@
                     "repeat": 0
                 },
                 "completionWindow": {
-                    "unit": "hour",
-                    "amount": 24
+                    "unit": "day",
+                    "amount": 14
                 }
             }
         },
         {
-            "name": "Naming and Speech Tasks - Free Speech Verbal",
+            "name": "Free Speech - Verbal",
             "showIntroduction": true,
-            "type": "on_demand",
-            "order": 4,
+            "type": "scheduled",
+            "order": 8,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_free_speech_verbal",
@@ -653,8 +653,8 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "week",
+                    "amount": 6
                 },
                 "repeatQuestionnaire": {
                     "unit": "min",
@@ -668,16 +668,16 @@
                     "repeat": 0
                 },
                 "completionWindow": {
-                    "unit": "hour",
-                    "amount": 24
+                    "unit": "day",
+                    "amount": 14
                 }
             }
         },
         {
-            "name": "Language Processing Tasks - Reading",
-            "showIntroduction": false,
-            "showInCalendar": true,
-            "order": 5,
+            "name": "Reading",
+            "type": "scheduled",
+            "showIntroduction": true,
+            "order": 9,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_reading",
@@ -710,8 +710,8 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "week",
+                    "amount": 6
                 },
                 "repeatQuestionnaire": {
                     "unit": "min",
@@ -725,16 +725,16 @@
                     "repeat": 0
                 },
                 "completionWindow": {
-                    "unit": "hour",
-                    "amount": 24
+                    "unit": "day",
+                    "amount": 14
                 }
             }
         },
         {
-            "name": "Language Processing Tasks - Repetition",
+            "name": "Repetition",
             "showIntroduction": true,
-            "type": "on_demand",
-            "order": 6,
+            "type": "scheduled",
+            "order": 10,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_repitition",
@@ -767,8 +767,8 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "week",
+                    "amount": 6
                 },
                 "repeatQuestionnaire": {
                     "unit": "min",
@@ -782,16 +782,16 @@
                     "repeat": 0
                 },
                 "completionWindow": {
-                    "unit": "hour",
-                    "amount": 24
+                    "unit": "day",
+                    "amount": 14
                 }
             }
         },
         {
-            "name": "Language Processing Tasks - Word Comprehension",
+            "name": "Word Comprehension",
             "showIntroduction": true,
-            "type": "on_demand",
-            "order": 7,
+            "type": "scheduled",
+            "order": 11,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_word_comprehension",
@@ -824,8 +824,8 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "week",
+                    "amount": 6
                 },
                 "repeatQuestionnaire": {
                     "unit": "min",
@@ -839,8 +839,8 @@
                     "repeat": 0
                 },
                 "completionWindow": {
-                    "unit": "hour",
-                    "amount": 24
+                    "unit": "day",
+                    "amount": 14
                 }
             }
         }

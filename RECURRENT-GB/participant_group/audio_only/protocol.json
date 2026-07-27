@@ -1,5 +1,5 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "schemaVersion": "0.0.2",
     "name": "RECURRENT-GB Audio Only",
     "healthIssues": [
@@ -8,8 +8,9 @@
     ],
     "protocols": [
         {
-            "name": "Naming and Speech Tasks - Auditory Naming",
-            "showIntroduction": false,
+            "name": "Auditory Naming",
+            "type": "on_demand",
+            "showIntroduction": true,
             "showInCalendar": true,
             "order": 1,
             "questionnaire": {
@@ -65,8 +66,9 @@
             }
         },
         {
-            "name": "Naming and Speech Tasks - Picture Naming",
-            "showIntroduction": false,
+            "name": "Picture Naming",
+            "type": "on_demand",
+            "showIntroduction": true,
             "showInCalendar": true,
             "order": 2,
             "questionnaire": {
@@ -122,8 +124,9 @@
             }
         },
         {
-            "name": "Naming and Speech Tasks - Free Speech Picture",
-            "showIntroduction": false,
+            "name": "Free Speech - Picture",
+            "type": "on_demand",
+            "showIntroduction": true,
             "showInCalendar": true,
             "order": 3,
             "questionnaire": {
@@ -179,7 +182,8 @@
             }
         },
         {
-            "name": "Naming and Speech Tasks - Free Speech Verbal",
+            "name": "Free Speech - Verbal",
+            "type": "on_demand",
             "showIntroduction": false,
             "showInCalendar": true,
             "order": 4,
@@ -236,7 +240,8 @@
             }
         },
         {
-            "name": "Language Processing Tasks - Reading",
+            "name": "Reading",
+            "type": "on_demand",
             "showIntroduction": false,
             "showInCalendar": true,
             "order": 5,
@@ -293,7 +298,8 @@
             }
         },
         {
-            "name": "Language Processing Tasks - Repetition",
+            "name": "Repetition",
+            "type": "on_demand",
             "showIntroduction": false,
             "showInCalendar": true,
             "order": 6,
@@ -350,7 +356,8 @@
             }
         },
         {
-            "name": "Language Processing Tasks - Word Comprehension",
+            "name": "Word Comprehension",
+            "type": "on_demand",
             "showIntroduction": false,
             "showInCalendar": true,
             "order": 7,
