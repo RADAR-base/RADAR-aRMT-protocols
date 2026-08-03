@@ -57,7 +57,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 2
         },
         "healthkitQuery": {
           "lookbackInterval": {
@@ -118,7 +118,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 1
+          "amount": 30
         },
         "healthkitQuery": {
           "forwardInterval": {
