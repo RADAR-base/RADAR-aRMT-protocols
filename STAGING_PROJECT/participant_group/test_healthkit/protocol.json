@@ -1,0 +1,248 @@
+{
+  "version": "0.0.1",
+  "schemaVersion": "0.0.2",
+  "name": "RADAR STAGING Project - HealthKit Interval Test",
+  "healthIssues": [
+    "depression"
+  ],
+  "protocols": [
+    {
+      "name": "HEALTHKIT_LOOKBACK",
+      "showIntroduction": "always",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "sample_healthkit",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This task collects HealthKit data using a LOOKBACK interval (7 days before task time).",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [
+            9
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "healthkitQuery": {
+          "lookbackInterval": {
+            "unit": "day",
+            "amount": 7
+          }
+        }
+      }
+    },
+    {
+      "name": "HEALTHKIT_FORWARD",
+      "showIntroduction": "once",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "sample_healthkit",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This task collects HealthKit data using a FORWARD interval (1 day after task time).",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [
+            12
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "healthkitQuery": {
+          "forwardInterval": {
+            "unit": "day",
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "HEALTHKIT_BOTH_LOOKBACK",
+      "showIntroduction": "always",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "sample_healthkit",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This task collects HealthKit data using a LOOKBACK interval (3 days before task time). Part of the combined lookback+forward test.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [
+            15
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "healthkitQuery": {
+          "lookbackInterval": {
+            "unit": "day",
+            "amount": 3
+          }
+        }
+      }
+    },
+    {
+      "name": "HEALTHKIT_DEFAULT",
+      "showIntroduction": "always",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+        "name": "sample_healthkit",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "This task collects HealthKit data using the DEFAULT interval (no healthkitQuery configured, falls back to config).",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 3,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "hour",
+          "unitsFromZero": [
+            18
+          ]
+        },
+        "reminders": {
+          "unit": "day",
+          "amount": 0,
+          "repeat": 0
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        }
+      }
+    }
+  ]
+}
