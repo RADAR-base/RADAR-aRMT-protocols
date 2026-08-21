@@ -1,8 +1,10 @@
 {
-  "version": "0.1.14",
+  "version": "0.1.15",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
-  "healthIssues": ["ADHD"],
+  "healthIssues": [
+    "ADHD"
+  ],
   "protocols": [
     {
       "name": "ADHD Medication Use Daily",
@@ -47,7 +49,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -103,7 +107,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -167,7 +173,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -231,7 +239,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -295,7 +305,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -359,7 +371,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -423,7 +437,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -449,7 +465,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 10,
+      "order": 20,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_transition",
@@ -487,7 +503,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -551,7 +569,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [
+            0
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -615,7 +635,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [
+            0
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -679,7 +701,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [0]
+          "unitsFromZero": [
+            0
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -743,7 +767,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [40800]
+          "unitsFromZero": [
+            40800
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -807,7 +833,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [1020]
+          "unitsFromZero": [
+            1020
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -863,7 +891,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [540]
+          "unitsFromZero": [
+            540
+          ]
         },
         "reminders": {
           "unit": "hour",
@@ -919,7 +949,9 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [480]
+          "unitsFromZero": [
+            480
+          ]
         },
         "reminders": {
           "unit": "hour",
