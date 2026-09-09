@@ -1,5 +1,5 @@
 {
-  "version": "0.4.10",
+  "version": "0.4.11",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": [
@@ -66,6 +66,10 @@
               4
             ]
           }
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 7
         }
       }
     },
