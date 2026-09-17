@@ -1,5 +1,5 @@
 {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "schemaVersion": "0.0.2",
     "name": "RECURRENT-GB Proxy Audio & Questionnaires",
     "healthIssues": [
@@ -520,7 +520,7 @@
             "name": "Auditory Naming",
             "showIntroduction": true,
             "type": "scheduled",
-            "order": 5,
+            "order": 10,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_auditory_naming",
@@ -559,7 +559,7 @@
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        540
+                        660
                     ]
                 },
                 "reminders": {
@@ -577,7 +577,7 @@
             "name": "Picture Naming",
             "showIntroduction": true,
             "type": "scheduled",
-            "order": 6,
+            "order": 10,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_picture_naming",
@@ -616,7 +616,7 @@
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        540
+                        660
                     ]
                 },
                 "reminders": {
@@ -634,7 +634,7 @@
             "name": "Free Speech - Picture",
             "showIntroduction": true,
             "type": "scheduled",
-            "order": 7,
+            "order": 10,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_free_speech_picture",
@@ -673,7 +673,7 @@
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        540
+                        660
                     ]
                 },
                 "reminders": {
@@ -691,7 +691,7 @@
             "name": "Free Speech - Verbal",
             "showIntroduction": true,
             "type": "scheduled",
-            "order": 8,
+            "order": 10,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_free_speech_verbal",
@@ -730,7 +730,7 @@
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        540
+                        660
                     ]
                 },
                 "reminders": {
@@ -748,7 +748,7 @@
             "name": "Reading",
             "showIntroduction": false,
             "showInCalendar": true,
-            "order": 9,
+            "order": 10,
             "questionnaire": {
                 "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
                 "name": "recurrent_reading",
@@ -787,7 +787,7 @@
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        540
+                        660
                     ]
                 },
                 "reminders": {
@@ -844,7 +844,7 @@
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        540
+                        660
                     ]
                 },
                 "reminders": {
@@ -901,7 +901,7 @@
                 "repeatQuestionnaire": {
                     "unit": "min",
                     "unitsFromZero": [
-                        540
+                        660
                     ]
                 },
                 "reminders": {
