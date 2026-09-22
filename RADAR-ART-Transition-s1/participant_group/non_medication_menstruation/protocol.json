@@ -1,5 +1,5 @@
 {
-  "version": "0.2.15",
+  "version": "0.2.16",
   "schemaVersion": "0.0.1",
   "name": "RADAR ART Transition KCL s1",
   "healthIssues": [
@@ -465,7 +465,7 @@
       "showIntroduction": false,
       "showInCalendar": true,
       "isDemo": false,
-      "order": 20,
+      "order": 10,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
         "name": "audio_transition",
@@ -949,9 +949,7 @@
         },
         "repeatQuestionnaire": {
           "unit": "min",
-          "unitsFromZero": [
-            480
-          ]
+          "unitsFromZero": [480]
         },
         "reminders": {
           "unit": "hour",
