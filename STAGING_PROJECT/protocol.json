@@ -1,5 +1,5 @@
 {
-  "version": "0.4.12",
+  "version": "0.4.13",
   "schemaVersion": "0.0.2",
   "name": "RADAR STAGING Project",
   "healthIssues": [
@@ -127,7 +127,7 @@
       "order": 2,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-        "name": "audio_transition",
+        "name": "audio_story",
         "avsc": "questionnaire"
       },
       "startText": {
