@@ -1,6 +1,6 @@
 {
     "name": "PMDD-KCL",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "schemaVersion": "0.1.0",
     "healthIssues": [
         "pmdd"
