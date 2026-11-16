@@ -1,6 +1,6 @@
 {
     "name": "PMDD-KCL",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "schemaVersion": "0.1.0",
     "healthIssues": [
         "pmdd"
@@ -104,13 +104,22 @@
             "estimatedCompletionTime": 2,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 1
+                    "unit": "year",
+                    "amount": 999
                 },
                 "repeatQuestionnaire": {
-                    "unit": "min",
+                    "unit": "hour",
                     "unitsFromZero": [
-                        540
+                        9, 33, 57, 81, 105, 129, 153,
+                        177, 201, 225, 249, 273, 297, 321,
+                        345, 369, 393, 417, 441, 465, 489,
+                        513, 537, 561, 585, 609, 633, 657,
+                        681, 705, 729, 753, 777, 801, 825,
+                        849, 873, 897, 921, 945, 969, 993,
+                        1017, 1041, 1065, 1089, 1113, 1137, 1161,
+                        1185, 1209, 1233, 1257, 1281, 1305, 1329,
+                        1353, 1377, 1401, 1425, 1449, 1473, 1497,
+                        1521, 1545, 1569, 1593, 1617, 1641, 1665
                     ]
                 },
                 "reminders": {
@@ -344,13 +353,13 @@
             "estimatedCompletionTime": 3,
             "protocol": {
                 "repeatProtocol": {
-                    "unit": "day",
-                    "amount": 7
+                    "unit": "year",
+                    "amount": 999
                 },
                 "repeatQuestionnaire": {
                     "unit": "hour",
                     "unitsFromZero": [
-                        9
+                        9, 177, 345, 513, 681, 849, 1017, 1185, 1353, 1521
                     ]
                 },
                 "reminders": {
