@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "schemaVersion": "0.0.2",
-  "name": "EXIT-CVD Project",
+  "name": "COMPASS EXIT-CVD Project",
   "healthIssues": [
     "cardiovascular-disease"
   ],
